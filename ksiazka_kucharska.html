@@ -1541,7 +1541,11 @@
     } else {
       pwReset();
       document.getElementById('pw-real').focus();
-      toast('Sio! Uciekaj!');
+      const btn = document.querySelector('.pw-submit');
+      btn.classList.remove('pw-shake');
+      void btn.offsetWidth;
+      btn.classList.add('pw-shake');
+      btn.addEventListener('animationend', () => btn.classList.remove('pw-shake'), { once: true });
     }
   }
 
