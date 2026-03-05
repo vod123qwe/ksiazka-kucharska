@@ -332,12 +332,14 @@
     }
 
     .pw-label {
-      font-family: var(--sans);
-      font-size: 0.68rem;
+      font-family: "Playfair Display", serif;
+      font-size: 12px;
+      font-weight: 500;
       letter-spacing: 0.25em;
       text-transform: uppercase;
-      color: #bba688;
-      margin-bottom: 0.9rem;
+      color: #4A3932;
+      margin-bottom: 0.5rem;
+      font-feature-settings: 'liga' off, 'clig' off;
     }
 
     /* Stars field */
@@ -351,24 +353,32 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 0.45rem;
+      gap: 4px;
     }
 
     .pw-dot {
-      font-family: var(--serif);
-      font-size: 2.2rem;
-      line-height: 1;
-      color: #cbb08a;
-      transition: color 0.12s;
+      font-family: "Playfair Display", serif;
+      font-size: 80px;
+      font-weight: 700;
+      line-height: 92%;
+      color: #EAD7B9;
       user-select: none;
+      font-feature-settings: 'liga' off, 'clig' off;
     }
 
-    .pw-dot.filled { color: #7a3b1e; }
+    .pw-dot.filled { color: #4A3932; }
+
+    @keyframes starIn {
+      from { opacity: 0; transform: translateY(-6px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .pw-dot.star-in { animation: starIn 0.2s ease forwards; }
 
     .pw-cursor {
-      width: 1.5px;
-      height: 1.7rem;
-      background: var(--ink);
+      width: 2px;
+      height: 60px;
+      background: #4A3932;
       flex-shrink: 0;
       display: none;
       animation: pwBlink 1s step-end infinite;
@@ -382,23 +392,30 @@
     }
 
     #pw-real {
-      position: fixed;
-      top: -9999px;
-      left: -9999px;
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
       opacity: 0;
-      width: 1px;
-      height: 1px;
+      cursor: text;
       border: none;
       outline: none;
+      background: transparent;
+      -webkit-appearance: none;
+      appearance: none;
+      color: transparent;
+      caret-color: transparent;
     }
 
     /* Submit */
     .pw-submit {
-      font-family: var(--serif);
-      font-style: italic;
-      font-size: 1.85rem;
+      font-family: "Playfair Display", serif;
+      font-style: normal;
+      font-size: 24px;
       font-weight: 700;
-      color: var(--ink);
+      line-height: 92%;
+      color: #4A3932;
+      font-feature-settings: 'liga' off, 'clig' off;
       background: none;
       border: none;
       cursor: pointer;
@@ -418,11 +435,14 @@
     }
 
     .pw-quote {
-      font-family: var(--sans);
-      font-size: 0.68rem;
-      color: #bba688;
-      line-height: 1.75;
-      font-style: italic;
+      font-family: "Playfair Display", serif;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 112%;
+      color: #4A3932;
+      text-align: center;
+      font-style: normal;
+      font-feature-settings: 'liga' off, 'clig' off;
     }
 
     /* ── RECIPE HERO IMAGE ── */
@@ -897,7 +917,7 @@
   <div class="pw-box">
     <img class="pw-book" src="images/book-lock.png" alt="">
     <div class="pw-label">Hasło</div>
-    <div class="pw-field">
+    <div class="pw-field" onclick="document.getElementById('pw-real').focus()">
       <div class="pw-stars" id="pw-stars">
         <span class="pw-dot" id="pd0">✳</span>
         <span class="pw-dot" id="pd1">✳</span>
@@ -909,7 +929,9 @@
         <span class="pw-cursor" id="pw-cursor"></span>
       </div>
       <input type="password" id="pw-real" autocomplete="current-password"
-        oninput="pwUpdate()" onfocus="pwUpdate()" onblur="pwUpdate()"
+        oninput="pwUpdate()"
+        onfocus="_pwFocused=true; pwUpdate()"
+        onblur="_pwFocused=false; pwUpdate()"
         onkeydown="if(event.key==='Enter') checkPassword()">
     </div>
     <button class="pw-submit" onclick="checkPassword()">Zatwierdź</button>
@@ -1448,28 +1470,43 @@
   const PW_HASH = 'ir0nman';
   const PW_LEN = 7;
 
+  let _pwFocused = false;
+  let _prevPwLen = 0;
+
   function pwUpdate() {
     const input = document.getElementById('pw-real');
-    const focused = document.activeElement === input;
+    const focused = _pwFocused;
     const len = Math.min(input.value.length, PW_LEN);
+    const newStar = focused && len > _prevPwLen; // char just added
+    _prevPwLen = len;
+
     const starsEl = document.getElementById('pw-stars');
     const cursor = document.getElementById('pw-cursor');
 
     for (let i = 0; i < PW_LEN; i++) {
       const dot = document.getElementById('pd' + i);
       if (i < len) {
+        // Typed position — show as filled star
+        dot.style.display = '';
         dot.classList.add('filled');
-        dot.style.visibility = 'visible';
+        // Animate only the newly added star
+        if (newStar && i === len - 1) {
+          dot.classList.remove('star-in');
+          void dot.offsetWidth; // force reflow
+          dot.classList.add('star-in');
+        }
       } else if (focused) {
-        dot.classList.remove('filled');
-        dot.style.visibility = 'hidden';
+        // Focused but not yet typed — hide (so filled stars stay centered)
+        dot.style.display = 'none';
+        dot.classList.remove('filled', 'star-in');
       } else {
-        dot.classList.remove('filled');
-        dot.style.visibility = 'visible';
+        // Unfocused — show all as placeholder
+        dot.style.display = '';
+        dot.classList.remove('filled', 'star-in');
       }
     }
 
-    // Move blinking cursor to correct position
+    // Move cursor to position after last filled star
     const dots = starsEl.querySelectorAll('.pw-dot');
     if (len < PW_LEN) {
       starsEl.insertBefore(cursor, dots[len]);
@@ -1488,6 +1525,7 @@
       loadApp();
     } else {
       document.getElementById('pw-real').value = '';
+      _prevPwLen = 0;
       pwUpdate();
       document.getElementById('pw-real').focus();
       toast('Sio! Uciekaj!');
