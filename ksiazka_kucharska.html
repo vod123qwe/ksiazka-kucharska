@@ -354,7 +354,6 @@
       align-items: center;
       justify-content: center;
       gap: 4px;
-      height: 92px;
     }
 
     .pw-dot {
@@ -373,29 +372,7 @@
       from { opacity: 0; transform: translateY(-6px); }
       to   { opacity: 1; transform: translateY(0); }
     }
-    @keyframes starOut {
-      from { opacity: 1; transform: translateY(0); }
-      to   { opacity: 0; transform: translateY(6px); }
-    }
-
-    .pw-dot.star-in  { animation: starIn  0.18s ease forwards; }
-    .pw-dot.star-out { animation: starOut 0.18s ease forwards; }
-
-    .pw-cursor {
-      width: 2px;
-      height: 60px;
-      background: #4A3932;
-      flex-shrink: 0;
-      display: none;
-      animation: pwBlink 1s step-end infinite;
-    }
-
-    .pw-field:focus-within .pw-cursor { display: block; }
-
-    @keyframes pwBlink {
-      0%, 100% { opacity: 1; }
-      50% { opacity: 0; }
-    }
+    .pw-dot.star-in { animation: starIn 0.18s ease forwards; }
 
     #pw-real {
       position: absolute;
@@ -947,12 +924,9 @@
         <span class="pw-dot" id="pd4">*</span>
         <span class="pw-dot" id="pd5">*</span>
         <span class="pw-dot" id="pd6">*</span>
-        <span class="pw-cursor" id="pw-cursor"></span>
       </div>
       <input type="password" id="pw-real" autocomplete="current-password"
         oninput="pwUpdate()"
-        onfocus="_pwFocused=true; pwAnimateOut()"
-        onblur="_pwFocused=false; pwUpdate()"
         onkeydown="if(event.key==='Enter') checkPassword()">
     </div>
     <button class="pw-submit" onclick="checkPassword()">Zatwierdź</button>
@@ -1491,60 +1465,33 @@
   const PW_HASH = 'ir0nman';
   const PW_LEN = 7;
 
-  let _pwFocused = false;
   let _prevPwLen = 0;
-
-  function pwAnimateOut() {
-    for (let i = 0; i < PW_LEN; i++) {
-      const dot = document.getElementById('pd' + i);
-      if (dot.style.display !== 'none' && !dot.classList.contains('filled')) {
-        dot.classList.remove('star-in');
-        void dot.offsetWidth;
-        dot.classList.add('star-out');
-      }
-    }
-    setTimeout(pwUpdate, 180);
-  }
 
   function pwUpdate() {
     const input = document.getElementById('pw-real');
-    const focused = _pwFocused;
     const len = Math.min(input.value.length, PW_LEN);
-    const newStar = focused && len > _prevPwLen; // char just added
+    const newStar = len > _prevPwLen;
     _prevPwLen = len;
-
-    const starsEl = document.getElementById('pw-stars');
-    const cursor = document.getElementById('pw-cursor');
-
     for (let i = 0; i < PW_LEN; i++) {
       const dot = document.getElementById('pd' + i);
       if (i < len) {
-        // Typed position — show as filled star
-        dot.style.display = '';
         dot.classList.add('filled');
-        // Animate only the newly added star
         if (newStar && i === len - 1) {
           dot.classList.remove('star-in');
-          void dot.offsetWidth; // force reflow
+          void dot.offsetWidth;
           dot.classList.add('star-in');
         }
-      } else if (focused) {
-        // Focused but not yet typed — hide (so filled stars stay centered)
-        dot.style.display = 'none';
-        dot.classList.remove('filled', 'star-in', 'star-out');
       } else {
-        // Unfocused — show all as placeholder
-        dot.style.display = '';
-        dot.classList.remove('filled', 'star-in', 'star-out');
+        dot.classList.remove('filled', 'star-in');
       }
     }
+  }
 
-    // Move cursor to position after last filled star
-    const dots = starsEl.querySelectorAll('.pw-dot');
-    if (len < PW_LEN) {
-      starsEl.insertBefore(cursor, dots[len]);
-    } else {
-      starsEl.appendChild(cursor);
+  function pwReset() {
+    document.getElementById('pw-real').value = '';
+    _prevPwLen = 0;
+    for (let i = 0; i < PW_LEN; i++) {
+      document.getElementById('pd' + i).classList.remove('filled', 'star-in');
     }
   }
 
@@ -1557,15 +1504,9 @@
       setTimeout(() => screen.remove(), 450);
       loadApp();
     } else {
-      document.getElementById('pw-real').value = '';
-      _prevPwLen = 0;
-      pwUpdate();
+      pwReset();
       document.getElementById('pw-real').focus();
-      const btn = document.querySelector('.pw-submit');
-      btn.classList.remove('pw-shake');
-      void btn.offsetWidth; // reset animacji
-      btn.classList.add('pw-shake');
-      btn.addEventListener('animationend', () => btn.classList.remove('pw-shake'), { once: true });
+      toast('Sio! Uciekaj!');
     }
   }
 
