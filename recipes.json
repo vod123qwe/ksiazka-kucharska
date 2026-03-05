@@ -1,0 +1,261 @@
+[
+  {
+    "id": "poledwiczki-musztardowo-miodowe",
+    "image": "images/poledwiczki.jpg",
+    "title": "Polędwiczki w sosie musztardowo-miodowym",
+    "category": "Mięsa",
+    "time": "ok. 35–40 min",
+    "difficulty": "łatwy / średni",
+    "portions": "4–6",
+    "description": "Kremowe polędwiczki wieprzowe w intensywnym sosie musztardowym z pieczarkami. Połączenie śmietanki, musztardy, Worcestera i whisky daje głęboki, lekko słodkawy aromat.",
+    "quickIngredients": [
+      "1,5 kg polędwiczki wieprzowej",
+      "500 g pieczarek",
+      "2 × śmietanka 30%",
+      "2 łyżki musztardy francuskiej",
+      "2 łyżki musztardy miodowej",
+      "sos Worcestershire",
+      "sos sojowy",
+      "oregano",
+      "masło",
+      "kieliszek whisky"
+    ],
+    "quickSteps": [
+      "Pieczarki smaż na maśle aż puszczą wodę — dodaj masło i sos sojowy — karmelizuj.",
+      "Sos: wymieszaj śmietankę + Worcestershire + sos sojowy + obie musztardy.",
+      "Mięso: pokrój w plastry 2 cm — polej Worcestershire — posyp oregano.",
+      "Smaż polędwiczki krótko z obu stron, partiami.",
+      "Deglasuj patelnię whisky.",
+      "Dodaj sos + pieczarki + mięso.",
+      "Duś kilka minut aż sos zgęstnieje."
+    ],
+    "ingredients": [
+      {
+        "group": "Mięso",
+        "items": ["1,5 kg polędwiczki wieprzowej"]
+      },
+      {
+        "group": "Warzywa",
+        "items": ["500 g pieczarek"]
+      },
+      {
+        "group": "Sos",
+        "items": [
+          "2 × śmietanka 30%",
+          "2 łyżki musztardy francuskiej",
+          "2 łyżki musztardy miodowej",
+          "sos Worcestershire (spora ilość)",
+          "odrobina sosu sojowego"
+        ]
+      },
+      {
+        "group": "Przyprawy",
+        "items": ["oregano"]
+      },
+      {
+        "group": "Do smażenia",
+        "items": ["masło"]
+      },
+      {
+        "group": "Aromat",
+        "items": ["kieliszek whisky"]
+      }
+    ],
+    "steps": [
+      {
+        "group": "Pieczarki",
+        "items": [
+          "Umyj pieczarki. Małe zostaw w całości, większe pokrój w ćwiartki — nie drobno.",
+          "Wrzuć na patelnię z masłem na niższej temperaturze, aby powoli puściły wodę.",
+          "Gdy woda odparuje, dodaj sporą ilość masła i trochę sosu sojowego.",
+          "Smaż dalej aż pieczarki się lekko skarmelizują. Odstaw na bok."
+        ]
+      },
+      {
+        "group": "Baza sosu",
+        "items": [
+          "W misce wymieszaj: dwie śmietanki 30%, sporą ilość sosu Worcestershire, odrobinę sosu sojowego, musztardę francuską i miodową. Wymieszaj dokładnie."
+        ]
+      },
+      {
+        "group": "Przygotowanie mięsa",
+        "items": [
+          "Pokrój polędwiczkę w plastry około 2 cm grubości.",
+          "Każdy plaster polej z obu stron sosem Worcestershire.",
+          "Posyp z obu stron oregano."
+        ]
+      },
+      {
+        "group": "Smażenie",
+        "items": [
+          "Rozgrzej patelnię z masłem.",
+          "Smaż polędwiczki krótko z obu stron — nie przepełniaj patelni, smaż partiami.",
+          "Usmażone kawałki odkładaj na talerz."
+        ]
+      },
+      {
+        "group": "Deglasowanie",
+        "items": [
+          "Na gorącą patelnię wlej kieliszek whisky. Zeskrob wszystkie przypieczone fragmenty z dna — tworzą bazę aromatycznego sosu."
+        ]
+      },
+      {
+        "group": "Finalny sos",
+        "items": [
+          "Wlej przygotowaną bazę sosu.",
+          "Dodaj pieczarki i włóż z powrotem polędwiczki.",
+          "Duś kilka minut aż sos zgęstnieje."
+        ]
+      }
+    ],
+    "serving": [
+      {
+        "name": "Sałata ze śmietaną",
+        "desc": "Sałata masłowa, śmietana, sól. Lekki dodatek balansujący kremowy sos."
+      },
+      {
+        "name": "Mizeria",
+        "desc": "Ogórki, śmietana, sól, opcjonalnie pieprz. Dobrze odświeża smak."
+      },
+      {
+        "name": "Puree ziemniaczane",
+        "desc": "Klasyczne kremowe puree świetnie zbiera sos z talerza."
+      },
+      {
+        "name": "Ziemniaki dafinki",
+        "desc": "Zapiekane w formie — lekko chrupiące na zewnątrz, miękkie w środku. Elegancki wybór."
+      }
+    ],
+    "secrets": [
+      {
+        "title": "Deglasowanie whisky",
+        "text": "Restauracyjna technika wydobywania smaku z patelni. Alkohol rozpuszcza przypieczone białka z dna, które są głównym nośnikiem aromatu."
+      },
+      {
+        "title": "Osobne smażenie pieczarek",
+        "text": "Zapobiega ich gotowaniu się w sosie. Dzięki temu zachowują głęboki, skarmelizowany smak zamiast być wodniste."
+      }
+    ],
+    "notes": [
+      "Doprecyzować ilość masła do smażenia.",
+      "Określić czas redukcji sosu.",
+      "Sprawdzić czy dodawać sól i pieprz.",
+      "Ustalić preferowany stopień wysmażenia mięsa."
+    ]
+  },
+  {
+    "id": "spaghetti-carbonara",
+    "image": "images/carbonara.jpg",
+    "title": "Spaghetti Carbonara",
+    "category": "Makarony",
+    "time": "ok. 30–40 min",
+    "difficulty": "średni",
+    "portions": "4",
+    "description": "Klasyczna rzymska carbonara bez żadnych skrótów — guanciale, żółtka, parmezan i czarny pieprz. Kremowość pochodzi wyłącznie z jajek i techniki, nie ze śmietanki.",
+    "quickIngredients": [
+      "400 g spaghetti lub penne",
+      "300 g guanciale",
+      "3 żółtka + 1 całe jajko",
+      "szklanka parmezanu (ok. 100 g)",
+      "świeżo mielony czarny pieprz"
+    ],
+    "quickSteps": [
+      "Guanciale w plastry → zimna patelnia → powoli wytop tłuszcz → odcedź.",
+      "Połowę guanciale posiekaj drobno. Tłuszcz zachowaj.",
+      "Jajka + parmezan + kilka łyżek tłuszczu → wymieszaj na gładki sos.",
+      "Makaron ugotuj al dente w osolonej wodzie. Zachowaj szklankę wody z gotowania.",
+      "Sos podgrzej nad parą z makaronu w metalowej misce — mieszaj aż zgęstnieje.",
+      "Makaron na patelnię, dorzuć posiekane guanciale, polej sosem i dodaj ok. pół szklanki wody ze skrobią. Wymieszaj — w razie potrzeby dolewaj więcej wody.",
+      "Makaron z sosem połóż na talerzu, posyp chrupiącymi kawałkami guanciale i wykończ świeżo, grubo zmielonym pieprzem."
+    ],
+    "ingredients": [
+      {
+        "group": "Makaron",
+        "items": ["400 g spaghetti lub penne"]
+      },
+      {
+        "group": "Guanciale",
+        "items": ["300 g guanciale"]
+      },
+      {
+        "group": "Sos jajeczny",
+        "items": [
+          "3 żółtka jaj",
+          "1 całe jajko",
+          "szklanka parmezanu (ok. 100 g)",
+          "kilka łyżek wytopionego tłuszczu z guanciale"
+        ]
+      },
+      {
+        "group": "Przyprawy",
+        "items": ["świeżo mielony czarny pieprz"]
+      }
+    ],
+    "steps": [
+      {
+        "group": "Guanciale",
+        "items": [
+          "Pokrój guanciale w szersze plastry, ok. 1 cm grubości.",
+          "Wrzuć na zimną patelnię i powoli podgrzewaj — tłuszcz ma się stopniowo wytapiać, a guanciale stawać chrupiące, ale nie przypalone.",
+          "Gdy kawałki będą złociste i chrupiące, odcedź je z tłuszczu i odłóż na bok. Tłuszcz przelej do osobnego pojemnika — będzie potrzebny do sosu.",
+          "Połowę guanciale posiekaj drobno i odłóż osobno."
+        ]
+      },
+      {
+        "group": "Sos jajeczny",
+        "items": [
+          "Do metalowej miski wybij 3 żółtka i 1 całe jajko.",
+          "Dodaj szklankę startego parmezanu i wymieszaj dokładnie.",
+          "Wlej kilka łyżek wytopionego tłuszczu z guanciale i ponownie wymieszaj na jednolity, gęsty sos."
+        ]
+      },
+      {
+        "group": "Makaron",
+        "items": [
+          "Ugotuj makaron al dente w mocno osolonej wodzie — zgodnie z czasem na opakowaniu, minus 1–2 minuty. Przed odcedzeniem zachowaj przynajmniej szklankę wody z gotowania — skrobia w niej jest kluczem do właściwej konsystencji sosu."
+        ]
+      },
+      {
+        "group": "Łączenie",
+        "items": [
+          "Postaw metalową miskę z sosem nad garnkiem z gotującą się wodą makaronową (bain-marie). Dynamicznie mieszaj — sos ma delikatnie zgęstnieć. Gdy to nastąpi, natychmiast zdejmij z pary. Działaj ostrożnie — jajka nie mogą się ściąć.",
+          "Odcedź ugotowany makaron i przełóż na patelnię (wyłączony ogień). Dorzuć posiekane guanciale, polej przygotowanym sosem jajecznym i dodaj około pół szklanki wody z gotowania makaronu. Wymieszaj wszystko dokładnie, aż makaron równomiernie się pokryje. Jeżeli sos jest za gęsty, dolewaj po trochu więcej wody ze skrobią — aż osiągnie kremową, jedwabistą strukturę.",
+          "Przełóż na talerz, posyp chrupiącymi kawałkami guanciale, które nie zostały posiekane, i wykończ świeżo, grubo zmielonym pieprzem."
+        ]
+      }
+    ],
+    "serving": [
+      {
+        "name": "Chrupiące guanciale",
+        "desc": "Całe chrupiące kawałki guanciale ułożone na wierzchu — obowiązkowy element tekstury."
+      },
+      {
+        "name": "Świeży parmezan",
+        "desc": "Dodatkowa porcja tartego parmezanu przed podaniem."
+      },
+      {
+        "name": "Czarny pieprz",
+        "desc": "Obficie, świeżo mielony — to nie jest opcja, to fundament smaku carbonary."
+      }
+    ],
+    "secrets": [
+      {
+        "title": "Zimna patelnia do guanciale",
+        "text": "Startowanie od zimnej patelni pozwala tłuszczowi wytapiać się powoli i równomiernie — guanciale staje się chrupiące bez przypalenia."
+      },
+      {
+        "title": "Bain-marie dla sosu",
+        "text": "Podgrzewanie sosu nad parą wodną daje pełną kontrolę temperatury. Jajka delikatnie gęstnieją zamiast się ścinać — różnica między kremową carbonarą a jajecznicą z makaronem."
+      },
+      {
+        "title": "Wyłączony ogień przy składaniu",
+        "text": "Makaron łączy się z guanciale na zimnej patelni. Ciepło resztkowe wystarczy — sos nie ryzykuje ścięcia."
+      }
+    ],
+    "notes": [
+      "Jeżeli nie masz guanciale i używasz zwykłego boczku lub pancetty, dodaj szczyptę grubo mielonego pieprzu bezpośrednio do sosu jajecznego — guanciale ma naturalnie głębszy, bardziej intensywny smak, który pieprz w sosie częściowo zastępuje.",
+      "Woda z gotowania makaronu to sekretny składnik — skrobia sprawia, że sos wiąże się z makaronem i nie rozdziela się na talerzu.",
+      "Przepis nie przewiduje śmietanki — kremowość pochodzi wyłącznie z jajek, skrobi i techniki."
+    ]
+  }
+]
