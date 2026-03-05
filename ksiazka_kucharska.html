@@ -354,6 +354,17 @@
       align-items: center;
       justify-content: center;
       gap: 4px;
+      position: relative;
+    }
+
+    .pw-underline {
+      position: absolute;
+      bottom: -8px;
+      height: 2px;
+      background: #4A3932;
+      border-radius: 1px;
+      transition: left 0.15s ease, width 0.15s ease;
+      pointer-events: none;
     }
 
     .pw-dot {
@@ -924,6 +935,7 @@
         <span class="pw-dot" id="pd4">*</span>
         <span class="pw-dot" id="pd5">*</span>
         <span class="pw-dot" id="pd6">*</span>
+        <div class="pw-underline" id="pw-underline"></div>
       </div>
       <input type="password" id="pw-real" autocomplete="current-password"
         oninput="pwUpdate()"
@@ -1467,6 +1479,17 @@
 
   let _prevPwLen = 0;
 
+  function pwMoveUnderline(len) {
+    const underline = document.getElementById('pw-underline');
+    const starsEl = document.getElementById('pw-stars');
+    const pos = Math.min(len, PW_LEN - 1);
+    const dot = document.getElementById('pd' + pos);
+    const sr = starsEl.getBoundingClientRect();
+    const dr = dot.getBoundingClientRect();
+    underline.style.left  = (dr.left - sr.left) + 'px';
+    underline.style.width = dr.width + 'px';
+  }
+
   function pwUpdate() {
     const input = document.getElementById('pw-real');
     const len = Math.min(input.value.length, PW_LEN);
@@ -1485,6 +1508,7 @@
         dot.classList.remove('filled', 'star-in');
       }
     }
+    pwMoveUnderline(len);
   }
 
   function pwReset() {
@@ -1526,7 +1550,7 @@
       document.getElementById('password-screen').remove();
       loadApp();
     } else {
-      setTimeout(() => document.getElementById('pw-real').focus(), 50);
+      setTimeout(() => { pwMoveUnderline(0); document.getElementById('pw-real').focus(); }, 50);
     }
   }
 
