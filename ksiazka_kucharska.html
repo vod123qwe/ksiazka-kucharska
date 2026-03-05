@@ -357,14 +357,21 @@
       position: relative;
     }
 
-    .pw-underline {
+    .pw-cursor {
       position: absolute;
-      bottom: -8px;
-      height: 2px;
-      background: #4A3932;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 2px;
+      height: 50px;
+      background: #626900;
       border-radius: 1px;
-      transition: left 0.15s ease, width 0.15s ease;
       pointer-events: none;
+      transition: left 0.1s ease;
+      animation: pwBlink 1s step-end infinite;
+    }
+    @keyframes pwBlink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
     }
 
     .pw-dot {
@@ -935,7 +942,7 @@
         <span class="pw-dot" id="pd4">*</span>
         <span class="pw-dot" id="pd5">*</span>
         <span class="pw-dot" id="pd6">*</span>
-        <div class="pw-underline" id="pw-underline"></div>
+        <div class="pw-cursor" id="pw-cursor"></div>
       </div>
       <input type="password" id="pw-real" autocomplete="current-password"
         oninput="pwUpdate()"
@@ -1479,15 +1486,19 @@
 
   let _prevPwLen = 0;
 
-  function pwMoveUnderline(len) {
-    const underline = document.getElementById('pw-underline');
+  function pwMoveCursor(len) {
+    const cursor = document.getElementById('pw-cursor');
     const starsEl = document.getElementById('pw-stars');
-    const pos = Math.min(len, PW_LEN - 1);
-    const dot = document.getElementById('pd' + pos);
     const sr = starsEl.getBoundingClientRect();
-    const dr = dot.getBoundingClientRect();
-    underline.style.left  = (dr.left - sr.left) + 'px';
-    underline.style.width = dr.width + 'px';
+    if (len < PW_LEN) {
+      const dot = document.getElementById('pd' + len);
+      const dr = dot.getBoundingClientRect();
+      cursor.style.left = (dr.left - sr.left) + 'px';
+    } else {
+      const dot = document.getElementById('pd' + (PW_LEN - 1));
+      const dr = dot.getBoundingClientRect();
+      cursor.style.left = (dr.right - sr.left) + 'px';
+    }
   }
 
   function pwUpdate() {
@@ -1508,7 +1519,7 @@
         dot.classList.remove('filled', 'star-in');
       }
     }
-    pwMoveUnderline(len);
+    pwMoveCursor(len);
   }
 
   function pwReset() {
