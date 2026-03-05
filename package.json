@@ -1,0 +1,12 @@
+{
+  "name": "ksiazka-kucharska",
+  "version": "1.0.0",
+  "description": "Książka Kucharska Jarka",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
