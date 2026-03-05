@@ -359,10 +359,8 @@
 
     .pw-cursor {
       position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
       width: 2px;
-      height: 50px;
+      height: 44px;
       background: #626900;
       border-radius: 1px;
       pointer-events: none;
@@ -1490,13 +1488,15 @@
     const cursor = document.getElementById('pw-cursor');
     const starsEl = document.getElementById('pw-stars');
     const sr = starsEl.getBoundingClientRect();
+    const ref = document.getElementById('pd0').getBoundingClientRect();
+    const dotCenterY = ref.top + ref.height / 2 - sr.top;
+    cursor.style.top = dotCenterY + 'px';
+    cursor.style.transform = 'translateY(-50%)';
     if (len < PW_LEN) {
-      const dot = document.getElementById('pd' + len);
-      const dr = dot.getBoundingClientRect();
+      const dr = document.getElementById('pd' + len).getBoundingClientRect();
       cursor.style.left = (dr.left - sr.left) + 'px';
     } else {
-      const dot = document.getElementById('pd' + (PW_LEN - 1));
-      const dr = dot.getBoundingClientRect();
+      const dr = document.getElementById('pd' + (PW_LEN - 1)).getBoundingClientRect();
       cursor.style.left = (dr.right - sr.left) + 'px';
     }
   }
