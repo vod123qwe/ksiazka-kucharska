@@ -295,6 +295,94 @@
 
     .back-link:hover { color: var(--accent); }
 
+    /* ── PASSWORD SCREEN ── */
+    #password-screen {
+      position: fixed;
+      inset: 0;
+      background: var(--bg);
+      z-index: 9999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: opacity 0.4s ease;
+    }
+
+    #password-screen.hide {
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    .password-box {
+      text-align: center;
+      width: 100%;
+      max-width: 320px;
+      padding: 2rem;
+    }
+
+    .password-box .pw-title {
+      font-family: var(--serif);
+      font-size: 1.9rem;
+      font-weight: 700;
+      margin-bottom: 0.25rem;
+    }
+
+    .password-box .pw-subtitle {
+      font-size: 0.7rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--light);
+      margin-bottom: 2.5rem;
+    }
+
+    .password-box .pw-rule {
+      width: 40px;
+      height: 1px;
+      background: var(--accent);
+      margin: 0 auto 2.5rem;
+    }
+
+    .password-box input[type="password"] {
+      width: 100%;
+      padding: 0.7rem 1rem;
+      font-family: var(--sans);
+      font-size: 0.95rem;
+      border: 1px solid var(--rule);
+      background: var(--paper);
+      color: var(--ink);
+      text-align: center;
+      letter-spacing: 0.15em;
+      outline: none;
+      margin-bottom: 0.75rem;
+      transition: border-color 0.15s;
+    }
+
+    .password-box input[type="password"]:focus {
+      border-color: var(--accent);
+    }
+
+    .password-box .pw-error {
+      font-size: 0.78rem;
+      color: #7a1e1e;
+      min-height: 1.2em;
+      margin-bottom: 0.75rem;
+    }
+
+    .password-box .btn-pw {
+      width: 100%;
+      padding: 0.7rem;
+      background: var(--accent);
+      color: #fff;
+      border: none;
+      font-family: var(--sans);
+      font-size: 0.8rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+
+    .password-box .btn-pw:hover { background: #5e2d17; }
+
     /* ── RECIPE HERO IMAGE ── */
     .recipe-hero {
       position: relative;
@@ -761,6 +849,19 @@
   </style>
 </head>
 <body>
+
+<!-- PASSWORD SCREEN -->
+<div id="password-screen">
+  <div class="password-box">
+    <div class="pw-title">Książka Kucharska</div>
+    <div class="pw-subtitle">Jarka</div>
+    <div class="pw-rule"></div>
+    <input type="password" id="pw-input" placeholder="hasło" autocomplete="current-password"
+      onkeydown="if(event.key==='Enter') checkPassword()">
+    <div class="pw-error" id="pw-error"></div>
+    <button class="btn-pw" onclick="checkPassword()">Wejdź</button>
+  </div>
+</div>
 
 <!-- SIDEBAR -->
 <nav id="sidebar">
@@ -1287,14 +1388,44 @@
       .catch(() => toast('Nie udało się skopiować.', true));
   }
 
+  // ── PASSWORD ─────────────────────────────────────────
+  const PW_KEY = 'jk_auth';
+  const PW_HASH = 'ir0nman';
+
+  function checkPassword() {
+    const val = document.getElementById('pw-input').value;
+    if (val === PW_HASH) {
+      localStorage.setItem(PW_KEY, '1');
+      const screen = document.getElementById('password-screen');
+      screen.classList.add('hide');
+      setTimeout(() => screen.remove(), 450);
+      loadApp();
+    } else {
+      const err = document.getElementById('pw-error');
+      err.textContent = 'Nieprawidłowe hasło.';
+      document.getElementById('pw-input').value = '';
+      document.getElementById('pw-input').focus();
+      setTimeout(() => { err.textContent = ''; }, 2500);
+    }
+  }
+
   // ── INIT ─────────────────────────────────────────────
-  async function init() {
+  async function loadApp() {
     try {
       allRecipes = await fetchRecipes();
       renderTOC(allRecipes);
       renderCards(allRecipes);
     } catch {
       document.getElementById('offline-banner').style.display = 'block';
+    }
+  }
+
+  function init() {
+    if (localStorage.getItem(PW_KEY) === '1') {
+      document.getElementById('password-screen').remove();
+      loadApp();
+    } else {
+      setTimeout(() => document.getElementById('pw-input').focus(), 50);
     }
   }
 
