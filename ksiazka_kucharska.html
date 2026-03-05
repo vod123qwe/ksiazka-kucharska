@@ -373,8 +373,13 @@
       from { opacity: 0; transform: translateY(-6px); }
       to   { opacity: 1; transform: translateY(0); }
     }
+    @keyframes starOut {
+      from { opacity: 1; transform: translateY(0); }
+      to   { opacity: 0; transform: translateY(6px); }
+    }
 
-    .pw-dot.star-in { animation: starIn 0.2s ease forwards; }
+    .pw-dot.star-in  { animation: starIn  0.18s ease forwards; }
+    .pw-dot.star-out { animation: starOut 0.18s ease forwards; }
 
     .pw-cursor {
       width: 2px;
@@ -946,7 +951,7 @@
       </div>
       <input type="password" id="pw-real" autocomplete="current-password"
         oninput="pwUpdate()"
-        onfocus="_pwFocused=true; pwUpdate()"
+        onfocus="_pwFocused=true; pwAnimateOut()"
         onblur="_pwFocused=false; pwUpdate()"
         onkeydown="if(event.key==='Enter') checkPassword()">
     </div>
@@ -1489,6 +1494,18 @@
   let _pwFocused = false;
   let _prevPwLen = 0;
 
+  function pwAnimateOut() {
+    for (let i = 0; i < PW_LEN; i++) {
+      const dot = document.getElementById('pd' + i);
+      if (dot.style.display !== 'none' && !dot.classList.contains('filled')) {
+        dot.classList.remove('star-in');
+        void dot.offsetWidth;
+        dot.classList.add('star-out');
+      }
+    }
+    setTimeout(pwUpdate, 180);
+  }
+
   function pwUpdate() {
     const input = document.getElementById('pw-real');
     const focused = _pwFocused;
@@ -1514,11 +1531,11 @@
       } else if (focused) {
         // Focused but not yet typed — hide (so filled stars stay centered)
         dot.style.display = 'none';
-        dot.classList.remove('filled', 'star-in');
+        dot.classList.remove('filled', 'star-in', 'star-out');
       } else {
         // Unfocused — show all as placeholder
         dot.style.display = '';
-        dot.classList.remove('filled', 'star-in');
+        dot.classList.remove('filled', 'star-in', 'star-out');
       }
     }
 
