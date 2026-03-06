@@ -1,5 +1,4 @@
 const http = require('http');
-const https = require('https');
 const fs = require('fs');
 const path = require('path');
 const url = require('url');
@@ -145,71 +144,6 @@ const server = http.createServer(async (req, res) => {
     if (filtered.length === recipes.length) { json(res, 404, { error: 'Not found' }); return; }
     writeRecipes(filtered);
     json(res, 200, { ok: true });
-    return;
-  }
-
-  // ── API: POST chat ──
-  if (method === 'POST' && pathname === '/api/chat') {
-    try {
-      const body = await readBody(req);
-      const messages = body.messages || [];
-
-      const recipes = readRecipes();
-      const recipesSummary = recipes.map(r => {
-        const ings = r.ingredients
-          ? r.ingredients.flatMap(g => g.items).join(', ')
-          : (r.quickIngredients || []).join(', ');
-        const steps = r.steps
-          ? r.steps.flatMap(g => g.items).join(' ')
-          : (r.quickSteps || []).join(' ');
-        return `### ${r.title}\nKategoria: ${r.category || '–'} | Czas: ${r.time || '–'} | Porcje: ${r.portions || '–'} | Trudność: ${r.difficulty || '–'}\nSkładniki: ${ings}\nPrzygotowanie: ${steps}`;
-      }).join('\n\n');
-
-      const systemPrompt = `Jesteś kulinarnym asystentem dla Książki Kucharskiej Jarka. Odpowiadasz tylko po polsku, krótko i przyjaźnie. Masz dostęp do następujących przepisów:\n\n${recipesSummary}\n\nOdpowiadaj na pytania dotyczące tych przepisów, składników, technik gotowania i porad kulinarnych. Jeśli pytanie dotyczy czegoś spoza przepisów, możesz odpowiedzieć ogólną wiedzą kulinarną.`;
-
-      const apiKey = process.env.ANTHROPIC_API_KEY;
-      if (!apiKey) { json(res, 500, { error: 'ANTHROPIC_API_KEY not set' }); return; }
-
-      const requestBody = JSON.stringify({
-        model: 'claude-haiku-4-5',
-        max_tokens: 1024,
-        system: systemPrompt,
-        messages
-      });
-
-      const apiResponse = await new Promise((resolve, reject) => {
-        const options = {
-          hostname: 'api.anthropic.com',
-          path: '/v1/messages',
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-            'x-api-key': apiKey,
-            'anthropic-version': '2023-06-01',
-            'Content-Length': Buffer.byteLength(requestBody)
-          }
-        };
-        const apiReq = https.request(options, apiRes => {
-          let data = '';
-          apiRes.on('data', chunk => data += chunk);
-          apiRes.on('end', () => {
-            try { resolve({ status: apiRes.statusCode, body: JSON.parse(data) }); }
-            catch { reject(new Error('Invalid API response')); }
-          });
-        });
-        apiReq.on('error', reject);
-        apiReq.write(requestBody);
-        apiReq.end();
-      });
-
-      if (apiResponse.status !== 200) {
-        json(res, 502, { error: apiResponse.body.error?.message || 'API error' });
-        return;
-      }
-      json(res, 200, { content: apiResponse.body.content[0].text });
-    } catch (e) {
-      json(res, 400, { error: e.message });
-    }
     return;
   }
 
