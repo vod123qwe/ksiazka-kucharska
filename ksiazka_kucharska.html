@@ -1489,7 +1489,7 @@
     const starsEl = document.getElementById('pw-stars');
     const sr = starsEl.getBoundingClientRect();
     const ref = document.getElementById('pd0').getBoundingClientRect();
-    const dotCenterY = ref.top + ref.height / 2 - sr.top;
+    const dotCenterY = ref.top + ref.height / 2 - sr.top - 10;
     cursor.style.top = dotCenterY + 'px';
     cursor.style.transform = 'translateY(-50%)';
     if (len < PW_LEN) {
