@@ -30,27 +30,16 @@
     }
 
     /* ── SIDEBAR ── */
-    /* ── FAB ── */
-    #fab-add {
+    /* ── CORNER ILLUSTRATION ── */
+    #corner-illustration {
       position: fixed;
-      bottom: 1.75rem;
-      left: 1.75rem;
+      bottom: 0;
+      left: 1rem;
       z-index: 200;
-      background: var(--accent);
-      color: #fff;
-      border: none;
-      padding: 0.7rem 1.2rem;
-      font-family: var(--sans);
-      font-size: 0.78rem;
-      letter-spacing: 0.06em;
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-      gap: 0.45rem;
-      transition: background 0.15s, box-shadow 0.15s;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+      width: 110px;
+      pointer-events: none;
+      user-select: none;
     }
-    #fab-add:hover { background: #5e2d17; box-shadow: 0 4px 14px rgba(0,0,0,0.22); }
 
     .btn {
       font-family: var(--sans);
@@ -915,7 +904,7 @@
     }
 
     @media print {
-      #fab-add, .btn, .btn-cart, #toast, #offline-banner, .back-link, #shopping-overlay { display: none !important; }
+      #corner-illustration, .btn, .btn-cart, #toast, #offline-banner, .back-link, #shopping-overlay { display: none !important; }
       #main { padding: 2rem; }
       #content { max-width: none; }
     }
@@ -949,11 +938,7 @@
   </div>
 </div>
 
-<!-- FAB -->
-<button id="fab-add" onclick="toggleForm()">
-  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
-  Dodaj przepis
-</button>
+<img id="corner-illustration" src="images/jakie-to-dobre.png" alt="">
 
 <!-- MAIN -->
 <div id="main">
