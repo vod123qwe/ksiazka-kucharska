@@ -1565,7 +1565,7 @@
       document.getElementById('password-screen').remove();
       loadApp();
     } else {
-      setTimeout(() => { pwMoveUnderline(0); document.getElementById('pw-real').focus(); }, 50);
+      setTimeout(() => pwMoveCursor(0), 50);
     }
   }
 
