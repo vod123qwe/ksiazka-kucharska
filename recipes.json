@@ -257,5 +257,157 @@
       "Woda z gotowania makaronu to sekretny składnik — skrobia sprawia, że sos wiąże się z makaronem i nie rozdziela się na talerzu.",
       "Przepis nie przewiduje śmietanki — kremowość pochodzi wyłącznie z jajek, skrobi i techniki."
     ]
+  },
+  {
+    "id": "spaghetti-bolognese",
+    "image": "images/bolognese.jpg",
+    "title": "Spaghetti Bolognese",
+    "category": "Makarony",
+    "time": "ok. 3–3,5 h",
+    "difficulty": "średni",
+    "portions": "4–6",
+    "description": "Autentyczne bolognese duszone 2–3 godziny na bardzo małym ogniu. Soffritto z warzyw, mocno przesmażone mięso wołowe z boczkiem, pasata, bulion, czerwone wino i odrobina mleka na koniec — klasyka bez skrótów.",
+    "quickIngredients": [
+      "700 g mielonego mięsa wołowego",
+      "boczek wędzony",
+      "seler naciowy, marchewka, cebula (soffritto)",
+      "pasata pomidorowa",
+      "500 ml bulionu",
+      "pół szklanki czerwonego wina",
+      "mleko",
+      "makaron spaghetti",
+      "parmezan"
+    ],
+    "quickSteps": [
+      "Posiekaj seler, marchewki, cebulę w kostkę — podsmaż na oliwie w dużym garnku.",
+      "Odsuń warzywa, dodaj boczek — zrumień, dodaj mielone mięso.",
+      "Smaż mocno: zbieraj nadmiar wody ręcznikiem papierowym, aż mięso się skarmelizuje.",
+      "Dodaj koncentrat pomidorowy — smaż razem. Wlej wino — poczekaj aż odparuje.",
+      "Dodaj pasatę, bulion, ziele angielskie i liście laurowe.",
+      "Duś 2–3 godziny na bardzo małym ogniu, ledwo bulgocząc.",
+      "Pod koniec: wlej pół szklanki mleka, dosól. Ugotuj makaron al dente. Podaj z parmezanem."
+    ],
+    "ingredients": [
+      {
+        "group": "Soffritto",
+        "items": [
+          "seler naciowy",
+          "4–5 młodych rzepek",
+          "2–3 marchewki",
+          "1 cebula",
+          "oliwa"
+        ]
+      },
+      {
+        "group": "Mięso",
+        "items": [
+          "700 g mielonego mięsa wołowego",
+          "boczek wędzony (ok. 300 g)"
+        ]
+      },
+      {
+        "group": "Sos",
+        "items": [
+          "pasata pomidorowa",
+          "2 łyżki koncentratu pomidorowego",
+          "500 ml bulionu",
+          "pół szklanki do szklanki czerwonego wina",
+          "700 ml mleka (ok. pół szklanki dodawane na koniec)"
+        ]
+      },
+      {
+        "group": "Przyprawy",
+        "items": [
+          "4 liście laurowe",
+          "5 ziarenek ziela angielskiego",
+          "2 łyżki cukru",
+          "sól (ok. 1–2 łyżeczki)"
+        ]
+      },
+      {
+        "group": "Makaron i wykończenie",
+        "items": [
+          "makaron spaghetti",
+          "parmezan (do podania)"
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "group": "Soffritto",
+        "items": [
+          "Posiekaj drobno seler naciowy, 4–5 młodych rzepek, 2–3 marchewki i 1 cebulę — wszystko w niewielką kostkę.",
+          "Podsmaż warzywa na oliwie w bardzo dużym garnku.",
+          "Gdy warzywa zmiękną i lekko się zarumienią, odsuń je na skraj garnka — środek garnka ma być wolny."
+        ]
+      },
+      {
+        "group": "Boczek i mięso",
+        "items": [
+          "Na środek garnka rzuć boczek wędzony — podsmaż, aż się dobrze zrumieni.",
+          "Dodaj mielone mięso wołowe. Smaż na dużym ogniu — mięso ma się karmelizować, nie gotować.",
+          "Nadmiar wody zbieraj na bieżąco papierowym ręcznikiem. Mięso musi być mocno przesmażone i brązowe na każdym kawałku."
+        ]
+      },
+      {
+        "group": "Koncentrat i wino",
+        "items": [
+          "Dodaj 2 łyżki koncentratu pomidorowego. Wymieszaj z mięsem i przez chwilę podsmaż razem.",
+          "Wlej pół szklanki do szklanki czerwonego wina. Mieszaj i czekaj, aż alkohol całkowicie odparuje."
+        ]
+      },
+      {
+        "group": "Duszenie",
+        "items": [
+          "Dodaj pasatę pomidorową i 500 ml bulionu. Wymieszaj całość z warzywami i mięsem.",
+          "Dorzuć 4 liście laurowe i 5 ziarenek ziela angielskiego.",
+          "Zmniejsz ogień do minimum — sos ma bardzo delikatnie bulgotać, dosłownie „mrugać". Duś przez 2–3 godziny bez przykrycia lub lekko uchylone, pilnując żeby nie wyparowało za dużo płynu."
+        ]
+      },
+      {
+        "group": "Wykończenie sosu",
+        "items": [
+          "Pod koniec gotowania wlej ok. pół szklanki mleka. Chwilę gotuj razem.",
+          "Dodaj 2 łyżki cukru. Dosól do smaku — ok. 1–2 łyżeczki soli."
+        ]
+      },
+      {
+        "group": "Makaron",
+        "items": [
+          "Ugotuj makaron spaghetti al dente w lekko osolonej wodzie zgodnie z czasem na opakowaniu."
+        ]
+      },
+      {
+        "group": "Podanie",
+        "items": [
+          "Nałóż makaron na talerze, polej obficie sosem bolognese i posyp świeżo startym parmezanem."
+        ]
+      }
+    ],
+    "serving": [
+      {
+        "name": "Parmezan",
+        "desc": "Świeżo starty parmezan bezpośrednio na talerzu — obowiązkowe wykończenie."
+      }
+    ],
+    "secrets": [
+      {
+        "title": "Zbieranie wody z mięsa",
+        "text": "Papierowy ręcznik przyłożony do mięsa podczas smażenia wchłania nadmiar wody, zamieniając gotowanie w karmelizację. To klucz do głębokiego, intensywnego smaku sosu."
+      },
+      {
+        "title": "Mleko na koniec",
+        "text": "Odrobina mleka dodana pod koniec gotowania łagodzi kwasowość pomidorów i nadaje sosowi delikatną kremowość — klasyczny bolognese trick."
+      },
+      {
+        "title": "Bardzo niski ogień przez godziny",
+        "text": "Sos duszony 2–3 godziny na minimalnym ogniu buduje głębię smaku, której nie zastąpi szybkie gotowanie. Ledwo widoczne bulgotanie to właściwa intensywność."
+      }
+    ],
+    "notes": [
+      "Podana ilość 700 ml mleka dotyczy całego opakowania — do sosu trafia ok. pół szklanki (125–150 ml).",
+      "Składnik '300 gram' bez nazwy na oryginalnej liście — prawdopodobnie 300 g boczku wędzonego.",
+      "Rzepki (4–5 sztuk) w soffritto to niestandardowy element — weryfikować przy kolejnych podejściach czy był to korzeń pietruszki lub pasternak."
+    ]
   }
 ]
