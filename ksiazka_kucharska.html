@@ -288,12 +288,13 @@
     }
 
     .pw-book {
-      width: 320px;
+      width: 280px;
       height: auto;
       object-fit: contain;
       margin-bottom: 2rem;
       user-select: none;
       pointer-events: none;
+      clip-path: inset(4% 0 0 0);
     }
 
     .pw-label {
@@ -918,7 +919,7 @@
 <!-- PASSWORD SCREEN -->
 <div id="password-screen">
   <div class="pw-box">
-    <img class="pw-book" src="images/book-cover.png" alt="">
+    <img class="pw-book" src="images/kucharz.png" alt="">
     <div class="pw-label">Hasło</div>
     <div class="pw-field" onclick="document.getElementById('pw-real').focus()">
       <div class="pw-stars" id="pw-stars">
