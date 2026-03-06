@@ -747,7 +747,31 @@
     /* ── RECIPE ACTIONS ── */
     .recipe-actions {
       margin-bottom: 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      align-items: center;
     }
+    .btn-wake {
+      background: transparent;
+      color: #1a1a1a;
+      border: 1.5px solid #1a1a1a;
+      padding: 0.6rem 1.4rem;
+      font-family: var(--sans);
+      font-size: 0.78rem;
+      letter-spacing: 0.07em;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      transition: background 0.15s, color 0.15s;
+    }
+    .btn-wake:hover { background: #f0ebe3; }
+    .btn-wake.active {
+      background: #1a1a1a;
+      color: #fff;
+    }
+    .btn-wake.active:hover { background: #333; }
 
     /* ── SHOPPING PANEL ── */
     #shopping-overlay {
@@ -1199,6 +1223,10 @@
           <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,10 2,2 10,2"/></svg>
           Stwórz listę zakupową
         </button>
+        <button class="btn-wake" id="btn-wake" onclick="toggleWakeLock(this)">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+          Nie wygaszaj
+        </button>
       </div>
 
       ${r.quickIngredients && r.quickSteps ? `
@@ -1512,6 +1540,42 @@
       btn.addEventListener('animationend', () => btn.classList.remove('pw-shake'), { once: true });
     }
   }
+
+  // ── WAKE LOCK ─────────────────────────────────────────
+  let _wakeLock = null;
+
+  async function toggleWakeLock(btn) {
+    if (!('wakeLock' in navigator)) {
+      toast('Twoja przeglądarka nie obsługuje blokady wygaszania.', true);
+      return;
+    }
+    if (_wakeLock) {
+      await _wakeLock.release();
+    } else {
+      try {
+        _wakeLock = await navigator.wakeLock.request('screen');
+        btn.classList.add('active');
+        _wakeLock.addEventListener('release', () => {
+          _wakeLock = null;
+          const b = document.getElementById('btn-wake');
+          if (b) b.classList.remove('active');
+        });
+      } catch (e) {
+        toast('Nie udało się zablokować wygaszania.', true);
+      }
+    }
+  }
+
+  // Odśwież wake lock gdy strona wraca na pierwszy plan
+  document.addEventListener('visibilitychange', async () => {
+    if (_wakeLock && document.visibilityState === 'visible') {
+      try {
+        _wakeLock = await navigator.wakeLock.request('screen');
+        const b = document.getElementById('btn-wake');
+        if (b) b.classList.add('active');
+      } catch (e) {}
+    }
+  });
 
   // ── INIT ─────────────────────────────────────────────
   async function loadApp() {
