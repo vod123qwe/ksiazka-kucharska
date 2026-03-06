@@ -30,71 +30,27 @@
     }
 
     /* ── SIDEBAR ── */
-    #sidebar {
-      width: var(--sidebar-w);
-      min-height: 100vh;
-      background: var(--paper);
-      border-right: 1px solid var(--rule);
-      padding: 2.5rem 1.5rem;
+    /* ── FAB ── */
+    #fab-add {
       position: fixed;
-      top: 0; left: 0;
-      overflow-y: auto;
-      z-index: 100;
-      display: flex;
-      flex-direction: column;
-    }
-
-    .book-title {
-      font-family: var(--serif);
-      font-size: 1.05rem;
-      font-weight: 700;
-      color: var(--accent);
+      bottom: 1.75rem;
+      left: 1.75rem;
+      z-index: 200;
+      background: var(--accent);
+      color: #fff;
+      border: none;
+      padding: 0.7rem 1.2rem;
+      font-family: var(--sans);
+      font-size: 0.78rem;
+      letter-spacing: 0.06em;
       cursor: pointer;
-    }
-
-    .book-title:hover { opacity: 0.8; }
-
-    .book-subtitle {
-      font-size: 0.7rem;
-      color: var(--light);
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      margin-bottom: 2rem;
-      padding-bottom: 1.5rem;
-      border-bottom: 1px solid var(--rule);
-    }
-
-    .sidebar-label {
-      font-size: 0.62rem;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      color: var(--light);
-      margin-bottom: 0.6rem;
-      margin-top: 1.5rem;
-    }
-
-    #toc { list-style: none; }
-
-    #toc li a {
-      display: block;
-      font-size: 0.82rem;
-      color: var(--muted);
-      text-decoration: none;
-      padding: 0.3rem 0;
-      line-height: 1.4;
-      transition: color 0.15s;
-    }
-
-    #toc li a:hover { color: var(--accent); }
-
-    .sidebar-actions {
-      margin-top: auto;
-      padding-top: 1.5rem;
-      border-top: 1px solid var(--rule);
       display: flex;
-      flex-direction: column;
-      gap: 0.5rem;
+      align-items: center;
+      gap: 0.45rem;
+      transition: background 0.15s, box-shadow 0.15s;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.18);
     }
+    #fab-add:hover { background: #5e2d17; box-shadow: 0 4px 14px rgba(0,0,0,0.22); }
 
     .btn {
       font-family: var(--sans);
@@ -119,9 +75,26 @@
     .btn-primary { background: var(--accent); color: #fff; border-color: var(--accent); }
     .btn-primary:hover { background: #5e2d17; border-color: #5e2d17; color: #fff; }
 
+    /* ── CART BUTTON ── */
+    .btn-cart {
+      background: #1a1a1a;
+      color: #fff;
+      border: none;
+      padding: 0.65rem 1.4rem;
+      font-family: var(--sans);
+      font-size: 0.78rem;
+      letter-spacing: 0.07em;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      transition: background 0.15s;
+    }
+    .btn-cart:hover { background: #333; }
+
     /* ── MAIN ── */
     #main {
-      margin-left: var(--sidebar-w);
+      margin-left: 0;
       flex: 1;
       display: flex;
       flex-direction: column;
@@ -918,8 +891,8 @@
     }
 
     @media print {
-      #sidebar, .btn, #toast, #offline-banner, .back-link, #shopping-overlay { display: none !important; }
-      #main { margin-left: 0; padding: 2rem; }
+      #fab-add, .btn, .btn-cart, #toast, #offline-banner, .back-link, #shopping-overlay { display: none !important; }
+      #main { padding: 2rem; }
       #content { max-width: none; }
     }
   </style>
@@ -952,23 +925,11 @@
   </div>
 </div>
 
-<!-- SIDEBAR -->
-<nav id="sidebar">
-  <div class="book-title" onclick="goHome()">Książka Kucharska</div>
-  <div class="book-subtitle">Jarka</div>
-
-  <div class="sidebar-label">Przepisy</div>
-  <ul id="toc"></ul>
-
-  <div class="sidebar-actions">
-    <button class="btn btn-primary" onclick="toggleForm()">
-      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg> Dodaj przepis
-    </button>
-    <button class="btn" onclick="window.print()">
-      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6,9 6,2 18,2 18,9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg> Drukuj
-    </button>
-  </div>
-</nav>
+<!-- FAB -->
+<button id="fab-add" onclick="toggleForm()">
+  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+  Dodaj przepis
+</button>
 
 <!-- MAIN -->
 <div id="main">
@@ -984,7 +945,7 @@
       <!-- Cover -->
       <div id="cover">
         <div class="cover-label">Kolekcja przepisów</div>
-        <h1>Książka Kucharska<br>Jarka</h1>
+        <h1>Książka Kucharska</h1>
         <div class="cover-rule"></div>
         <div class="cover-desc">Przepisy zbierane z pasją</div>
       </div>
@@ -1232,8 +1193,9 @@
       ${r.description ? `<p class="recipe-description">${r.description}</p>` : ''}
 
       <div class="recipe-actions">
-        <button class="btn" onclick="openShoppingList('${r.id}')">
-          ${icon('cart')} Stwórz listę zakupową
+        <button class="btn-cart" onclick="openShoppingList('${r.id}')">
+          <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,10 2,2 10,2"/></svg>
+          Stwórz listę zakupową
         </button>
       </div>
 
