@@ -422,10 +422,11 @@
     "quickIngredients": [
       "łopatka wieprzowa",
       "cebula",
-      "sól, pieprz, słodka papryka",
+      "sól (2 płaskie łyżeczki), pieprz, słodka papryka",
       "olej",
-      "woda lub bulion (ok. 500 ml)",
-      "ziele angielskie, liście laurowe",
+      "woda lub bulion (do poziomu mięsa)",
+      "ziele angielskie, liście laurowe, kminek",
+      "sos Worcestershire (opcjonalnie)",
       "masło (opcjonalnie)"
     ],
     "quickSteps": [
@@ -447,7 +448,7 @@
       {
         "group": "Marynata",
         "items": [
-          "sól",
+          "2 płaskie łyżeczki soli",
           "pieprz",
           "słodka papryka"
         ]
@@ -457,9 +458,11 @@
         "items": [
           "2–3 cebule",
           "3 ząbki czosnku",
-          "woda lub bulion (ok. 500 ml)",
+          "woda lub bulion — tyle żeby niemal przykrywała mięso",
           "4–5 ziarenek ziela angielskiego",
           "3–4 liście laurowe",
+          "2 łyżeczki kminku",
+          "3 łyżki sosu Worcestershire (opcjonalnie)",
           "masło (opcjonalnie — podkręca smak)"
         ]
       }
@@ -492,7 +495,7 @@
       {
         "group": "Duszenie",
         "items": [
-          "Zalej wodą lub bulionem (ok. 500 ml) — mięso ma być prawie przykryte.",
+          "Zalej wodą lub bulionem — tyle żeby płyn sięgał poziomu mięsa w garnku i niemal je przykrywał.",
           "Dodaj ziele angielskie i liście laurowe.",
           "Zmniejsz ogień do minimum i duś pod przykryciem minimum 1h15m.",
           "Sos ma ciemnieć i gęstnieć, cebula praktycznie się rozpuścić. Gotowe gdy mięso odpada pod delikatnym naciskiem widelca."
