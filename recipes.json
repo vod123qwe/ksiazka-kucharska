@@ -409,5 +409,126 @@
       "Składnik '300 gram' bez nazwy na oryginalnej liście — prawdopodobnie 300 g boczku wędzonego.",
       "Rzepki (4–5 sztuk) w soffritto to niestandardowy element — weryfikować przy kolejnych podejściach czy był to korzeń pietruszki lub pasternak."
     ]
+  },
+  {
+    "id": "gulasz-z-lopatki",
+    "image": "images/gulasz.jpg",
+    "title": "Gulasz z łopatki wieprzowej",
+    "category": "Mięsa",
+    "time": "ok. 1,5–2 h",
+    "difficulty": "łatwy",
+    "portions": "4–6",
+    "description": "Prosty gulasz, w którym chodzi o mięso — nie o przyprawy. Łopatka dobrze oczyszczona, solidnie przypalona na patelni, duszona z cebulą aż się rozpuści. Ciemny sos robi się sam z tego co zostaje na dnie.",
+    "quickIngredients": [
+      "łopatka wieprzowa",
+      "cebula",
+      "sól, pieprz, słodka papryka",
+      "olej",
+      "woda lub bulion warzywny",
+      "ziele angielskie, liście laurowe",
+      "masło (opcjonalnie)"
+    ],
+    "quickSteps": [
+      "Oczyść mięso z żyłek, błon i tłuszczu — pokrój na kawałki 3–8 cm.",
+      "Zamarynuj w soli, pieprzu, słodkiej papryce i oleju.",
+      "Smaż partiami na bardzo mocnym ogniu — aż się przypalą. Im więcej przypalonego na patelni, tym ciemniejszy sos.",
+      "Dodaj cebulę, chwilę smaż — zacznie się zbierać to co przypalono. Opcjonalnie: dodaj masło.",
+      "Zalej wodą lub bulionem. Dodaj ziele angielskie i liście laurowe.",
+      "Duś minimum 1h15m na małym ogniu — cebula ma się rozpuścić, mięso rozpadać pod widelcem."
+    ],
+    "ingredients": [
+      {
+        "group": "Mięso",
+        "items": [
+          "łopatka wieprzowa (ok. 1–1,5 kg)",
+          "olej (do marynaty i smażenia)"
+        ]
+      },
+      {
+        "group": "Marynata",
+        "items": [
+          "sól",
+          "pieprz",
+          "słodka papryka"
+        ]
+      },
+      {
+        "group": "Do duszenia",
+        "items": [
+          "2–3 cebule",
+          "woda lub bulion warzywny (ok. 400–500 ml)",
+          "4–5 ziarenek ziela angielskiego",
+          "3–4 liście laurowe",
+          "masło (opcjonalnie — podkręca smak)"
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "group": "Przygotowanie mięsa",
+        "items": [
+          "Oczyść łopatkę z żyłek, błon i tłuszczu — im dokładniej, tym mniejsza szansa na ciągnące się kawałki na talerzu.",
+          "Pokrój na kawałki 3–8 cm. Nie mniejsze niż 3–4 cm, bo mięso się kurczy podczas smażenia.",
+          "Wymieszaj z solą, pieprzem, słodką papryką i olejem. Odstaw na chwilę."
+        ]
+      },
+      {
+        "group": "Smażenie",
+        "items": [
+          "Rozgrzej patelnię z olejem na bardzo mocnym ogniu.",
+          "Smaż mięso partiami — nie wrzucaj wszystkiego naraz. Każdy kawałek ma się dobrze przypalić z każdej strony.",
+          "Nie przejmuj się ciemnym dnem patelni — to jest cel. Im więcej przypalonego, tym ciemniejszy i bardziej aromatyczny sos."
+        ]
+      },
+      {
+        "group": "Cebula",
+        "items": [
+          "Dodaj pokrojoną cebulę. Smaż chwilę razem z mięsem — cebula zacznie zbierać to co przypalono na dnie.",
+          "Opcjonalnie: dodaj kawałek masła. Podkręca smak, ale nie jest konieczne."
+        ]
+      },
+      {
+        "group": "Duszenie",
+        "items": [
+          "Zalej wodą lub bulionem — mięso ma być prawie przykryte.",
+          "Dodaj ziele angielskie i liście laurowe.",
+          "Zmniejsz ogień do minimum i duś pod przykryciem minimum 1h15m.",
+          "Sos ma ciemnieć i gęstnieć, cebula praktycznie się rozpuścić. Gotowe gdy mięso odpada pod delikatnym naciskiem widelca."
+        ]
+      }
+    ],
+    "serving": [
+      {
+        "name": "Kasza",
+        "desc": "Gryczana lub jaglana — dobrze zbiera ciemny sos."
+      },
+      {
+        "name": "Ziemniaki",
+        "desc": "Gotowane lub puree — klasyczny wybór."
+      },
+      {
+        "name": "Chleb",
+        "desc": "Do maczania w sosie."
+      }
+    ],
+    "secrets": [
+      {
+        "title": "Przypalenie to nie błąd",
+        "text": "Ciemne dno patelni po smażeniu mięsa to baza sosu. Nie czyść go — cebula i płyn zbiorą to wszystko i zamienią w aromat."
+      },
+      {
+        "title": "Czyszczenie mięsa",
+        "text": "Łopatka ma żyłki i błony — warto poświęcić czas na ich usunięcie przed gotowaniem. Jak trafisz ciągnący kawałek na talerzu, robi się nieprzyjemnie."
+      },
+      {
+        "title": "Prostota jest pointą",
+        "text": "Ten przepis celowo ma mało przypraw. Chodzi o smak mięsa, nie o skomplikowaną kompozycję. Możesz dodawać, ale nie musisz."
+      }
+    ],
+    "notes": [
+      "Bulion warzywny zamiast wody daje wyraźnie mocniejszy smak — ale woda też działa.",
+      "Masło i bulion są opcjonalne — dodają kalorii, ale też głębi.",
+      "Czas duszenia zależy od wielkości kawałków — przy dużych (6–8 cm) może być potrzebne nawet 1,5–2 h."
+    ]
   }
 ]
