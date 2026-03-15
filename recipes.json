@@ -424,7 +424,7 @@
       "cebula",
       "sól, pieprz, słodka papryka",
       "olej",
-      "bulion (ok. 500 ml)",
+      "woda lub bulion (ok. 500 ml)",
       "ziele angielskie, liście laurowe",
       "masło (opcjonalnie)"
     ],
@@ -455,9 +455,9 @@
       {
         "group": "Do duszenia",
         "items": [
-          "2 cebule",
+          "2–3 cebule",
           "3 ząbki czosnku",
-          "bulion (ok. 500 ml)",
+          "woda lub bulion (ok. 500 ml)",
           "4–5 ziarenek ziela angielskiego",
           "3–4 liście laurowe",
           "masło (opcjonalnie — podkręca smak)"
@@ -492,7 +492,7 @@
       {
         "group": "Duszenie",
         "items": [
-          "Zalej bulionem (ok. 500 ml) — mięso ma być prawie przykryte.",
+          "Zalej wodą lub bulionem (ok. 500 ml) — mięso ma być prawie przykryte.",
           "Dodaj ziele angielskie i liście laurowe.",
           "Zmniejsz ogień do minimum i duś pod przykryciem minimum 1h15m.",
           "Sos ma ciemnieć i gęstnieć, cebula praktycznie się rozpuścić. Gotowe gdy mięso odpada pod delikatnym naciskiem widelca."
