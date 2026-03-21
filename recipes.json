@@ -433,8 +433,8 @@
     ],
     "quickSteps": [
       "Wymieszaj wszystkie składniki sosu cezar na jednolity sos.",
-      "Filety z kurczaka pokrój w kawałki, oprósz pieprzem — smaż partiami po 3 min z każdej strony.",
-      "Bagietkę pokrój w kosteczkę i praż na suchej patelni aż się zarumieni.",
+      "Filety z kurczaka oprósz pieprzem — smaż w całości jako kotlety po 3–4 min z każdej strony, potem pokrój.",
+      "Bagietkę pokrój w kosteczkę i smaż na patelni z oliwą i czosnkiem aż się zarumieni.",
       "Liście sałaty rzymskiej porwij w dłoniach na mniejsze kawałki.",
       "Wymieszaj sałatę z częścią sosu, dodaj kurczaka i grzanki.",
       "Posyp parmezanem i polej pozostałym sosem — podawaj od razu."
@@ -447,6 +447,7 @@
           "½ długiej bagietki pszennej",
           "1 podwójna pierś z kurczaka (do 600 g)",
           "2 łyżki oleju do smażenia lub oliwy",
+          "1 ząbek czosnku (do grzanek)",
           "50 g drobno tartego parmezanu"
         ]
       },
@@ -475,18 +476,18 @@
       {
         "group": "Kurczak",
         "items": [
-          "Filety oczyść z chrząstek i włókien. Pokrój na spore kawałki podobnej wielkości.",
-          "Kawałki mięsa oprósz pieprzem.",
-          "Na mocno nagrzanej patelni z łyżką oleju smaż kurczaka partiami — około 3 minuty z każdej strony, aż się dobrze zarumieni.",
-          "Usmażone filety pokrój na kawałki na jeden kęs."
+          "Filety oczyść z chrząstek i włókien — zostaw w całości jako kotlety.",
+          "Oprósz pieprzem z obu stron.",
+          "Na mocno nagrzanej patelni z łyżką oleju smaż całe filety — 3–4 minuty z każdej strony, aż się dobrze zarumienią. Nie kroić przed smażeniem — mięso zachowuje więcej soku.",
+          "Usmażone kotlety odłóż na chwilę do odpoczęcia, potem pokrój w plastry lub podłużne kawałki."
         ]
       },
       {
         "group": "Grzanki",
         "items": [
           "Bagietkę pokrój na kromki, a następnie w kosteczkę.",
-          "Praż na suchej patelni na średnim ogniu, często mieszając — aż lekko się zarumienią. Opcjonalnie polej łyżką oliwy w trakcie.",
-          "Grzanki powinny być złociste i chrupiące w ok. 7 minut — praż bez przypraw."
+          "Na patelni rozgrzej oliwę ze zmiażdżonym lub drobno posiekanym ząbkiem czosnku — chwilę smaż czosnek aż zacznie pachnieć.",
+          "Wrzuć kostki bagietki i smaż na średnim ogniu, często mieszając — aż staną się złociste i chrupiące. Grzanki wchłoną aromat czosnku i oliwy."
         ]
       },
       {
