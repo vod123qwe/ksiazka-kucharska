@@ -411,6 +411,132 @@
     ]
   },
   {
+    "id": "salatka-cezar",
+    "image": "images/cezar.jpg",
+    "title": "Sałatka Cezar",
+    "category": "Sałatki",
+    "time": "ok. 30 min",
+    "difficulty": "łatwy",
+    "portions": "6",
+    "description": "Popularna sałatka z chrupiącą sałatą rzymską, grzankami i niezawodnym sosem cezar. Przepis podstawowy z kurczakiem, dokładnym opisem każdego etapu i wieloma propozycjami podania.",
+    "quickIngredients": [
+      "2 sałaty rzymskie",
+      "½ bagietki pszennej",
+      "1 podwójna pierś z kurczaka (do 600 g)",
+      "50 g tartego parmezanu",
+      "7 łyżek majonezu",
+      "1 łyżka ostrej musztardy",
+      "1 ząbek czosnku",
+      "2 łyżki soku z cytryny",
+      "1 łyżka sosu worcestershire",
+      "4 łyżki tartego parmezanu (do sosu)"
+    ],
+    "quickSteps": [
+      "Wymieszaj wszystkie składniki sosu cezar na jednolity sos.",
+      "Filety z kurczaka pokrój w kawałki, oprósz pieprzem — smaż partiami po 3 min z każdej strony.",
+      "Bagietkę pokrój w kosteczkę i praż na suchej patelni aż się zarumieni.",
+      "Liście sałaty rzymskiej porwij w dłoniach na mniejsze kawałki.",
+      "Wymieszaj sałatę z częścią sosu, dodaj kurczaka i grzanki.",
+      "Posyp parmezanem i polej pozostałym sosem — podawaj od razu."
+    ],
+    "ingredients": [
+      {
+        "group": "Sałatka",
+        "items": [
+          "2 średnie sałaty rzymskie",
+          "½ długiej bagietki pszennej",
+          "1 podwójna pierś z kurczaka (do 600 g)",
+          "2 łyżki oleju do smażenia lub oliwy",
+          "50 g drobno tartego parmezanu"
+        ]
+      },
+      {
+        "group": "Sos cezar",
+        "items": [
+          "7 łyżek dobrej jakości majonezu (ok. 160 g)",
+          "1 płaska łyżka ostrej musztardy (ok. 15 g)",
+          "1 spory ząbek czosnku (ok. 7 g)",
+          "2 łyżki soku z cytryny",
+          "1 łyżka sosu worcestershire lub 1 filet anchois z sardeli",
+          "4 łyżki drobno tartego parmezanu (ok. 35 g)",
+          "szczypta pieprzu (opcjonalnie)",
+          "czerwony ocet winny (opcjonalnie)"
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "group": "Sos cezar",
+        "items": [
+          "Wymieszaj w misce: majonez, musztardę, czosnek przeciśnięty przez praskę, sok z cytryny, sos worcestershire (lub drobno posiekany filet anchois) i parmezan.",
+          "Dokładnie wymieszaj na jednolity, gęsty sos. Opcjonalnie dodaj szczyptę pieprzu lub łyżkę czerwonego octu winnego zamiast połowy soku z cytryny."
+        ]
+      },
+      {
+        "group": "Kurczak",
+        "items": [
+          "Filety oczyść z chrząstek i włókien. Pokrój na spore kawałki podobnej wielkości.",
+          "Kawałki mięsa oprósz pieprzem.",
+          "Na mocno nagrzanej patelni z łyżką oleju smaż kurczaka partiami — około 3 minuty z każdej strony, aż się dobrze zarumieni.",
+          "Usmażone filety pokrój na kawałki na jeden kęs."
+        ]
+      },
+      {
+        "group": "Grzanki",
+        "items": [
+          "Bagietkę pokrój na kromki, a następnie w kosteczkę.",
+          "Praż na suchej patelni na średnim ogniu, często mieszając — aż lekko się zarumienią. Opcjonalnie polej łyżką oliwy w trakcie.",
+          "Grzanki powinny być złociste i chrupiące w ok. 7 minut — praż bez przypraw."
+        ]
+      },
+      {
+        "group": "Składanie",
+        "items": [
+          "Liście sałaty rzymskiej przepłucz pod zimną wodą i otrząśnij. Każdy listek porwij w dłoniach na mniejsze kawałki — przy większych liściach usuń grubszy nerw.",
+          "Przełóż sałatę do dużej miski, wlej część sosu i wymieszaj.",
+          "Dodaj kawałki kurczaka i grzanki. Posyp parmezanem i polej pozostałym sosem."
+        ]
+      }
+    ],
+    "serving": [
+      {
+        "name": "Wersja z jajkiem",
+        "desc": "Jajka ugotowane na twardo, pokrojone w ćwiartki lub plastry — klasyczny dodatek."
+      },
+      {
+        "name": "Wersja z boczkiem",
+        "desc": "Smażony boczek w plasterkach zamiast (lub obok) kurczaka."
+      },
+      {
+        "name": "Wersja z krewetkami",
+        "desc": "Krewetki smażone na patelni — elegancka alternatywa dla kurczaka."
+      },
+      {
+        "name": "Wersja wegetariańska",
+        "desc": "Zarumienione kosteczki tofu zamiast mięsa — zaskakująco dobra wersja."
+      }
+    ],
+    "secrets": [
+      {
+        "title": "Oryginalnie bez kurczaka",
+        "text": "Klasyczna sałatka cezar nie zawiera kurczaka — to późniejszy dodatek. Wersja podstawowa to sałata, sos, grzanki i parmezan."
+      },
+      {
+        "title": "Grzanki bez przypraw",
+        "text": "Grzanki praży się bez żadnych przypraw — mają być neutralne i chrupiące. Smak daje sos i parmezan."
+      },
+      {
+        "title": "Sprawdzanie wysmażenia kurczaka",
+        "text": "Zdejmij filet z patelni i przekrój na środku — jeśli mięso jest w środku białe, jest gotowe. Dzięki temu będzie soczyste i usmażone w idealnym czasie."
+      }
+    ],
+    "notes": [
+      "Wartości odżywcze na 100 g: 200 kcal, węglowodany 7 g (w tym cukry 1 g), białko 14 g, tłuszcze 13 g.",
+      "Z podanej ilości składników wychodzi ok. 6 sporych porcji.",
+      "Anchois z sardeli w sosie daje głębszy, bardziej umami smak niż sos worcestershire."
+    ]
+  },
+  {
     "id": "gulasz-z-lopatki",
     "image": "images/gulasz.jpg",
     "title": "Gulasz z łopatki wieprzowej",
