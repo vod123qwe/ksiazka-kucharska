@@ -2,6 +2,7 @@
   "name": "ksiazka-kucharska",
   "version": "1.0.0",
   "description": "Książka Kucharska Jarka",
+  "homepage": "https://ksiazka-kucharska.onrender.com/",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
