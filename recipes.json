@@ -662,5 +662,139 @@
       "Masło i bulion są opcjonalne — dodają kalorii, ale też głębi.",
       "Czas duszenia zależy od wielkości kawałków — przy dużych (6–8 cm) może być potrzebne nawet 1,5–2 h."
     ]
+  },
+  {
+    "id": "kumpir",
+    "image": "images/kumpir.jpg",
+    "title": "Kumpir",
+    "category": "Inne",
+    "time": "ok. 1 h 45 min",
+    "difficulty": "łatwy",
+    "portions": "4",
+    "description": "Tureckie pieczone ziemniaki w stylu street food. Wielkie ziemniaki długo pieczone w folii, rozgniecione w środku z masłem i żółtym serem, zalane twarożkiem z cebulą i czosnkiem, posypane dodatkami do wyboru — boczek, guanciale, tuńczyk.",
+    "quickIngredients": [
+      "4 duże ziemniaki (wielkości pięści)",
+      "50 g masła",
+      "200 g startego żółtego sera",
+      "1 opakowanie twarogu tłustego/półtłustego",
+      "100 g śmietany",
+      "1 cebula + ząbek czosnku",
+      "sól, pieprz",
+      "dodatki: boczek / guanciale / tuńczyk"
+    ],
+    "quickSteps": [
+      "Ziemniaki zawiń w folię aluminiową — piecz 1h30m w 200°C.",
+      "W międzyczasie zrób twarożek: twaróg + śmietana + posiekana cebula + czosnek + sól + pieprz.",
+      "Zetrzyj żółty ser. Podsmaż boczek (lub inny wybrany dodatek).",
+      "Gotowe ziemniaki natnij od góry na całej długości.",
+      "Dodaj odrobinę masła i rozgnieć ziemniaka w środku widelcem.",
+      "Posyp żółtym serem, nałóż twarożek i wybrane dodatki."
+    ],
+    "ingredients": [
+      {
+        "group": "Ziemniaki",
+        "items": [
+          "4 duże ziemniaki (wielkości pięści lub większe)",
+          "50 g masła",
+          "folia aluminiowa"
+        ]
+      },
+      {
+        "group": "Twarożek",
+        "items": [
+          "1 opakowanie twarogu tłustego lub półtłustego",
+          "100 g śmietany",
+          "1 cebula",
+          "1 ząbek czosnku",
+          "sól",
+          "pieprz"
+        ]
+      },
+      {
+        "group": "Wykończenie",
+        "items": [
+          "200 g startego żółtego sera"
+        ]
+      },
+      {
+        "group": "Dodatki (do wyboru)",
+        "items": [
+          "podsmażony boczek",
+          "guanciale",
+          "tuńczyk",
+          "inne wedle uznania"
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "group": "Pieczenie",
+        "items": [
+          "Umyj ziemniaki i osusz. Każdy zawiń szczelnie w folię aluminiową.",
+          "Włóż do piekarnika nagrzanego do 200°C.",
+          "Piecz 1 godzinę 30 minut. Sprawdzaj widelcem — ziemniak ma być całkowicie miękki w środku."
+        ]
+      },
+      {
+        "group": "Twarożek",
+        "items": [
+          "W misce rozgnieć twaróg widelcem.",
+          "Dodaj śmietanę, drobno posiekaną cebulę i przeciśnięty przez praskę ząbek czosnku.",
+          "Dopraw solą i pieprzem. Wymieszaj na gładką pastę."
+        ]
+      },
+      {
+        "group": "Dodatki",
+        "items": [
+          "Zetrzyj żółty ser na tarce o grubych oczkach.",
+          "Podsmaż boczek (lub guanciale) na patelni do chrupkości — albo przygotuj tuńczyka czy inny wybrany dodatek."
+        ]
+      },
+      {
+        "group": "Składanie",
+        "items": [
+          "Wyciągnij upieczone ziemniaki z piekarnika i rozwiń folię.",
+          "Każdego ziemniaka natnij od góry na całej długości — głęboko, ale nie przekrój na pół.",
+          "Wrzuć do środka odrobinę masła i rozgnieć widelcem miąższ wewnątrz ziemniaka — masło ma się rozpuścić i wmieszać.",
+          "Posyp obficie startym żółtym serem — ciepło ziemniaka go stopi.",
+          "Nałóż łyżkę twarożku i wybrane dodatki na wierzch. Podawaj od razu, na ciepło."
+        ]
+      }
+    ],
+    "serving": [
+      {
+        "name": "Boczek lub guanciale",
+        "desc": "Chrupiące kawałki podsmażonego boczku — klasyczny, sycący wariant. Guanciale daje bardziej intensywny smak."
+      },
+      {
+        "name": "Tuńczyk z puszki",
+        "desc": "Lekka alternatywa białkowa — szczególnie dobry z odrobiną oliwy i sokiem z cytryny."
+      },
+      {
+        "name": "Kukurydza i oliwki",
+        "desc": "Klasyczny turecki zestaw — słodka kukurydza i czarne oliwki. Wersja wegetariańska."
+      },
+      {
+        "name": "Ogórek kiszony",
+        "desc": "Pokrojony w kostkę — daje kwasowość i chrupkość, balansuje kremowość sera i twarożku."
+      }
+    ],
+    "secrets": [
+      {
+        "title": "Duży ziemniak to podstawa",
+        "text": "Minimum wielkość pięści — w mniejszych nie ma miejsca na dodatki, a środek się nie upiecze równo. Im większy, tym lepszy efekt."
+      },
+      {
+        "title": "Folia trzyma wilgoć",
+        "text": "Pieczenie w folii nie pozwala wilgoci uciec — miąższ wychodzi puszysty, nie suchy. Bez folii ziemniak zapiekłby się na suchą skórkę, a środek byłby zwarty."
+      },
+      {
+        "title": "Rozgniatanie w środku",
+        "text": "Zamiast wyjmować miąższ, rozgniata się go widelcem wewnątrz skórki — masło wsiąka, ser się topi, a skórka działa jak naturalna miseczka."
+      }
+    ],
+    "notes": [
+      "Temperatura 200°C przyjęta jako standard dla 1h30m — zweryfikować w praktyce."
+    ]
   }
 ]
