@@ -793,5 +793,142 @@
     "notes": [
       "Temperatura 200°C przyjęta jako standard dla 1h30m — zweryfikować w praktyce."
     ]
+  },
+  {
+    "id": "kruchy-schab-w-sosie-wlasnym",
+    "title": "Kruchy schab w sosie własnym",
+    "category": "Mięsa",
+    "time": "ok. 1 h 45 min",
+    "difficulty": "łatwy",
+    "portions": "4–6",
+    "description": "Klasyczny polski obiad z sześciu składników. Plastry schabu obsmażone, a potem długo duszone z cebulą, liściem laurowym i zielem angielskim — mięso wychodzi kruche i rozpada się pod widelcem. Sos powstaje sam, z wody i soków z mięsa, zagęszczony na koniec odrobiną mąki.",
+    "quickIngredients": [
+      "1 kg schabu bez kości",
+      "2 duże cebule",
+      "2 liście laurowe",
+      "4–5 ziaren ziela angielskiego",
+      "2 łyżki mąki pszennej",
+      "ok. 500 ml wody",
+      "2–3 łyżki oleju",
+      "sól, pieprz"
+    ],
+    "quickSteps": [
+      "Schab w plastry 1–1,5 cm — lekko rozbij — sól i pieprz.",
+      "Obsmaż partiami na oleju, 3–4 min z każdej strony. Odłóż.",
+      "Cebula w piórka — podsmaż na tym samym tłuszczu aż się zrumieni.",
+      "Mięso z powrotem + liść laurowy + ziele angielskie — zalej wodą.",
+      "Duś pod przykryciem na małym ogniu ok. 1,5 h, przewracając.",
+      "Mąka rozmieszana w zimnej wodzie — wlej do sosu, gotuj 1–2 min.",
+      "Dopraw solą i pieprzem."
+    ],
+    "ingredients": [
+      {
+        "group": "Mięso",
+        "items": [
+          "1 kg schabu bez kości"
+        ]
+      },
+      {
+        "group": "Warzywa",
+        "items": [
+          "2 duże cebule"
+        ]
+      },
+      {
+        "group": "Przyprawy",
+        "items": [
+          "2 liście laurowe",
+          "4–5 ziaren ziela angielskiego",
+          "sól",
+          "pieprz"
+        ]
+      },
+      {
+        "group": "Sos",
+        "items": [
+          "2 łyżki mąki pszennej",
+          "ok. 500 ml wody"
+        ]
+      },
+      {
+        "group": "Do smażenia",
+        "items": [
+          "2–3 łyżki oleju"
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "group": "Mięso",
+        "items": [
+          "Schab pokrój w plastry grubości ok. 1–1,5 cm.",
+          "Każdy plaster lekko rozbij tłuczkiem — nie na cienki kotlet, tylko żeby wyrównać grubość.",
+          "Dopraw solą i pieprzem z obu stron."
+        ]
+      },
+      {
+        "group": "Obsmażanie",
+        "items": [
+          "Rozgrzej olej na dużej patelni lub w szerokim garnku.",
+          "Obsmaż plastry partiami, na średnim ogniu, 3–4 min z każdej strony — mają się zrumienić.",
+          "Odkładaj usmażone kawałki na talerz."
+        ]
+      },
+      {
+        "group": "Cebula i duszenie",
+        "items": [
+          "Cebule pokrój w piórka lub półplasterki. Wrzuć na ten sam tłuszcz i smaż, aż się zeszklą i zaczną rumienić.",
+          "Włóż z powrotem mięso, dodaj liście laurowe i ziele angielskie.",
+          "Zalej wodą tak, aby mięso było prawie przykryte. Doprowadź do wrzenia.",
+          "Zmniejsz ogień do małego, przykryj i duś ok. 1,5 h. Co jakiś czas przewróć plastry. Mięso jest gotowe, gdy łatwo rozchodzi się pod widelcem."
+        ]
+      },
+      {
+        "group": "Zagęszczenie sosu",
+        "items": [
+          "Mąkę rozmieszaj w połowie szklanki zimnej wody na gładką zawiesinę bez grudek.",
+          "Wlej do bulgoczącego sosu, energicznie mieszając. Gotuj 1–2 min, aż sos zgęstnieje.",
+          "Dopraw solą i pieprzem do smaku."
+        ]
+      }
+    ],
+    "serving": [
+      {
+        "name": "Ziemniaki z wody lub puree",
+        "desc": "Klasyka — dobrze zbierają sos z talerza."
+      },
+      {
+        "name": "Kluski śląskie",
+        "desc": "Sos idealnie wchodzi w dołek."
+      },
+      {
+        "name": "Buraczki zasmażane",
+        "desc": "Słodko-kwaśny kontrast do mięsnego sosu."
+      },
+      {
+        "name": "Surówka z kapusty kiszonej",
+        "desc": "Odświeża i przecina tłustość."
+      }
+    ],
+    "secrets": [
+      {
+        "title": "Długie duszenie na małym ogniu",
+        "text": "Kruchość nie bierze się z rozbicia, tylko z czasu. Gotowanie w zbyt wysokiej temperaturze ściąga białka i mięso robi się twarde, mimo że jest „ugotowane”."
+      },
+      {
+        "title": "Najpierw rumienienie",
+        "text": "Przypieczona skórka na mięsie i podsmażona cebula to cała głębia smaku sosu. Bez tego sos będzie wodnisty i blady."
+      },
+      {
+        "title": "Mąka tylko w zimnej wodzie",
+        "text": "Wsypana bezpośrednio do gorącego sosu zrobi grudki. Zawiesina wlana przy mieszaniu daje gładki sos."
+      }
+    ],
+    "notes": [
+      "Zweryfikować ilości ze źródłem (wilkuchnia.pl, kwiecień 2019) — zwłaszcza mąkę i wodę.",
+      "Sprawdzić, czy zamiast wody nie użyć bulionu — sos będzie bardziej wyrazisty.",
+      "Ustalić grubość plastrów: 1 cm szybciej zmięknie, 1,5 cm zostanie bardziej soczyste.",
+      "Dodać zdjęcie gotowego dania."
+    ]
   }
 ]
