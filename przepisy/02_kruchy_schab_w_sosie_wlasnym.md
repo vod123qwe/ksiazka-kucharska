@@ -9,12 +9,12 @@
 
 ## Opis
 
-Klasyka polskiej kuchni z sześciu składników. Kawałki schabu mocno zrumienione na patelni,
-a potem długo i powoli duszone z czosnkiem, liściem laurowym, zielem angielskim i ziołami.
+Klasyka polskiej kuchni z garści prostych składników. Kawałki schabu mocno zrumienione na patelni,
+a potem długo i powoli duszone z cebulą, czosnkiem, kminkiem, liściem laurowym, zielem angielskim i ziołami.
 Mięso wychodzi tak kruche, że rozpada się pod widelcem, a ciemny, gęsty sos robi się sam —
-bez bulionetek i sosów w proszku. Baza, na której można budować dowolne warianty.
+bez bulionetek i sosów w proszku. Cebula daje mu słodycz i kolor, kminek — wytrawną, typowo polską nutę.
 
-Na podstawie przepisu z bloga Wilkuchnia (kwiecień 2019).
+Na podstawie przepisu z bloga Wilkuchnia (kwiecień 2019), rozszerzonego o cebulę i kminek.
 
 ---
 
@@ -23,8 +23,12 @@ Na podstawie przepisu z bloga Wilkuchnia (kwiecień 2019).
 **Mięso**
 - ok. 1 kg schabu bez kości
 
+**Warzywa**
+- 1 duża cebula (lub 2 mniejsze)
+
 **Aromat**
 - 3 ząbki czosnku
+- 1 łyżeczka kminku (całego)
 - 3 liście laurowe
 - 4 kulki ziela angielskiego
 - gałązka świeżego rozmarynu (ok. 10 cm) lub 1/2 łyżeczki suszonego
@@ -43,7 +47,6 @@ Na podstawie przepisu z bloga Wilkuchnia (kwiecień 2019).
 
 **Opcjonalnie**
 - 3–4 suszone pomidory w oleju, posiekane
-- 1 cebula, pokrojona w piórka
 
 ---
 
@@ -57,23 +60,25 @@ Na podstawie przepisu z bloga Wilkuchnia (kwiecień 2019).
 ### Smażenie
 1. Rozgrzej olej na głębokiej patelni lub w szerokim garnku.
 2. Smaż kawałki 2–3 min z każdej strony, aż mięso się zetnie.
-3. W tym czasie obierz czosnek i rozgnieć ząbki bokiem noża. Posiekaj suszone pomidory, jeśli ich używasz.
-4. Dorzuć na patelnię ziele angielskie, liście laurowe, zioła (całe gałązki), czosnek i pomidory.
-5. Smaż dalej na średnim ogniu, aż mięso będzie mocno zarumienione. Im ciemniejsze mięso, tym ciemniejszy sos.
-   Uważaj, żeby nie spalić czosnku.
+3. W tym czasie pokrój cebulę w piórka, obierz czosnek i rozgnieć ząbki bokiem noża.
+   Posiekaj suszone pomidory, jeśli ich używasz.
+4. Dodaj cebulę do mięsa i smaż, aż zmięknie i zacznie się rumienić — to ona da sosowi słodycz i kolor.
+5. Dorzuć czosnek, kminek, ziele angielskie, liście laurowe, zioła (całe gałązki) i pomidory.
+   Smaż jeszcze 1–2 min, aż kminek zacznie pachnieć, a mięso będzie mocno zarumienione.
+   Uważaj, żeby nie spalić czosnku i cebuli.
 
 ### Duszenie
 1. Zalej mięso **gorącą** wodą (po zagotowaniu odstawioną na 2–3 min), tak by było całe zanurzone.
 2. Duś na wolnym ogniu pod uchyloną przykrywką co najmniej 2 h. Sos ma delikatnie bulgotać, nie wrzeć.
 3. Od czasu do czasu zamieszaj i w razie potrzeby dolej trochę wody.
-4. Mięso jest gotowe, gdy rozpada się pod naciskiem widelca.
+4. Mięso jest gotowe, gdy rozpada się pod naciskiem widelca. Cebula do tego czasu prawie całkiem rozejdzie się w sosie.
 
 ### Zagęszczenie sosu
 1. Jeśli chcesz gładki sos bez przypraw, ostrożnie wyjmij mięso na talerz, a sos przelej przez drobne sito.
 2. W miseczce rozmieszaj łyżkę mąki z 2 łyżkami zimnej wody.
 3. Zahartuj rozczyn: dodawaj stopniowo ok. 2 łyżki ciepłego sosu, mieszając trzepaczką, aż nie będzie grudek.
 4. Zmniejsz ogień i wlej mieszankę cienkim strumieniem do sosu, cały czas mieszając.
-5. Podkręć ogień na średni i redukuj, mieszając, aż sos zgęstnieje. Włóż mięso z powrotem.
+5. Podkręć ogień na średni i redukuj, mieszając, aż sos zgęstnieje. Włóż mięso z powrotem i dopraw do smaku.
 
 ---
 
@@ -91,6 +96,12 @@ Na podstawie przepisu z bloga Wilkuchnia (kwiecień 2019).
 
 **Suche mięso = ciemny sos** — woda na powierzchni schabu paruje i ścina mięso, więc zamiast smażyć się, gotuje.
 Osuszony schab złapie złoto-brązowy kolor, a to właśnie on daje sosowi barwę i głębię. Żadnych bulionetek.
+
+**Cebula po mięsie, nie przed** — cebula wrzucona od razu puści wodę i nie pozwoli mięsu się zrumienić.
+Dodana po ścięciu mięsa smaży się w jego tłuszczu, karmelizuje i podczas duszenia rozpada w sosie, dając mu słodycz i gęstość.
+
+**Kminek na gorący tłuszcz** — całe ziarna kminku oddają aromat dopiero po krótkim podgrzaniu w tłuszczu.
+Dorzucony razem z czosnkiem i liściem laurowym pachnie wyraźnie, ale nie dominuje. Kto lubi mocniej, może go lekko rozgnieść.
 
 **Zalewaj tylko gorącą wodą** — zimna woda na skwierczące mięso to szok termiczny. Włókna się kurczą i schab robi się gumowy.
 
@@ -111,7 +122,7 @@ Zmienia strukturę mięsa i przyspiesza kruszenie. Dodawaj w trakcie duszenia, p
 ## Notatki
 
 - Olej można zastąpić masłem klarowanym, mieszanką oleju i masła albo smalcem.
-- Cebula nie jest w bazowym przepisie — podsmażona i długo gotowana dodaje słodyczy i koloru, ale nie każdy ją lubi w mięsnym sosie.
 - Suszone pomidory prawie całkowicie rozpadają się w sosie i dają głęboki smak — warto spróbować.
 - Do sosu pasują też: papryka (słodka, wędzona, chili), majeranek, cząber.
+- Sprawdzić ilość kminku — 1 łyżeczka to wersja wyczuwalna, ale łagodna. Można zejść do 1/2 łyżeczki.
 - Dodać zdjęcie gotowego dania.

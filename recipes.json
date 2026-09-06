@@ -801,25 +801,27 @@
     "time": "ok. 2,5 h (w tym 2 h duszenia)",
     "difficulty": "łatwy",
     "portions": "4–6",
-    "description": "Klasyka polskiej kuchni z sześciu składników. Kawałki schabu mocno zrumienione na patelni, a potem długo i powoli duszone z czosnkiem, liściem laurowym, zielem angielskim i ziołami. Mięso rozpada się pod widelcem, a ciemny, gęsty sos robi się sam — bez bulionetek i sosów w proszku.",
+    "description": "Klasyka polskiej kuchni z garści prostych składników. Kawałki schabu mocno zrumienione na patelni, a potem długo i powoli duszone z cebulą, czosnkiem, kminkiem, liściem laurowym, zielem angielskim i ziołami. Mięso rozpada się pod widelcem, a ciemny, gęsty sos robi się sam — cebula daje mu słodycz i kolor, kminek wytrawną, typowo polską nutę.",
     "quickIngredients": [
       "ok. 1 kg schabu bez kości",
-      "3–4 łyżki oleju rzepakowego lub oliwy",
-      "3 liście laurowe",
-      "4 kulki ziela angielskiego",
+      "1 duża cebula",
       "3 ząbki czosnku",
+      "1 łyżeczka kminku",
+      "3 liście laurowe i 4 kulki ziela angielskiego",
+      "gałązka rozmarynu i 3–4 gałązki tymianku (lub po 1/2 łyżeczki suszonych)",
       "1 łyżka mąki pszennej",
-      "sól (ok. 1 łyżeczki), pieprz (ok. 1/2 łyżeczki)",
-      "rozmaryn + tymianek (świeże gałązki lub po 1/2 łyżeczki suszonych)",
-      "opcjonalnie: 3–4 suszone pomidory w oleju"
+      "3–4 łyżki oleju rzepakowego lub oliwy",
+      "ok. 1 łyżeczki soli i 1/2 łyżeczki pieprzu",
+      "opcjonalnie 3–4 suszone pomidory w oleju"
     ],
     "quickSteps": [
-      "Schab w plastry, każdy na 2–3 kawałki — osusz ręcznikiem — sól i pieprz.",
-      "Smaż na oleju 2–3 min z każdej strony, aż się zetnie.",
-      "Dorzuć ziele, liście laurowe, zioła, rozgnieciony czosnek (i pomidory) — smaż aż mięso mocno się zrumieni.",
-      "Zalej GORĄCĄ wodą do zakrycia — duś pod uchyloną przykrywką min. 2 h na wolnym ogniu.",
-      "Mąka + 2 łyżki wody — zahartuj 2 łyżkami ciepłego sosu — wlej cienkim strumieniem, mieszając.",
-      "Redukuj na średnim ogniu, aż sos zgęstnieje."
+      "Schab pokrój w plastry, a każdy plaster na 2–3 kawałki. Osusz ręcznikiem papierowym i oprósz solą oraz pieprzem.",
+      "Obsmaż mięso na rozgrzanym oleju po 2–3 minuty z każdej strony, aż się zetnie.",
+      "Dodaj cebulę pokrojoną w piórka i smaż, aż zmięknie i zacznie się rumienić.",
+      "Dorzuć rozgnieciony czosnek, kminek, liście laurowe, ziele angielskie i zioła. Smaż jeszcze chwilę, aż mięso będzie mocno zarumienione.",
+      "Zalej gorącą wodą tak, aby mięso było zanurzone, i duś pod uchyloną przykrywką co najmniej 2 godziny.",
+      "Rozmieszaj mąkę z 2 łyżkami zimnej wody, zahartuj kilkoma łyżkami ciepłego sosu i wlej do garnka cienkim strumieniem, mieszając.",
+      "Gotuj na średnim ogniu, aż sos zgęstnieje, i dopraw do smaku."
     ],
     "ingredients": [
       {
@@ -829,9 +831,16 @@
         ]
       },
       {
+        "group": "Warzywa",
+        "items": [
+          "1 duża cebula (lub 2 mniejsze)"
+        ]
+      },
+      {
         "group": "Aromat",
         "items": [
           "3 ząbki czosnku",
+          "1 łyżeczka kminku (całego)",
           "3 liście laurowe",
           "4 kulki ziela angielskiego",
           "gałązka świeżego rozmarynu (ok. 10 cm) lub 1/2 łyżeczki suszonego",
@@ -861,8 +870,7 @@
       {
         "group": "Opcjonalnie",
         "items": [
-          "3–4 suszone pomidory w oleju, posiekane",
-          "1 cebula, pokrojona w piórka"
+          "3–4 suszone pomidory w oleju, posiekane"
         ]
       }
     ],
@@ -880,9 +888,9 @@
         "items": [
           "Rozgrzej olej na głębokiej patelni lub w szerokim garnku.",
           "Smaż kawałki 2–3 min z każdej strony, aż mięso się zetnie.",
-          "W tym czasie obierz czosnek i rozgnieć ząbki bokiem noża. Posiekaj suszone pomidory, jeśli ich używasz.",
-          "Dorzuć na patelnię ziele angielskie, liście laurowe, zioła (całe gałązki), czosnek i pomidory.",
-          "Smaż dalej na średnim ogniu, aż mięso będzie mocno zarumienione — im ciemniejsze mięso, tym ciemniejszy sos. Uważaj, żeby nie spalić czosnku."
+          "W tym czasie pokrój cebulę w piórka, obierz czosnek i rozgnieć ząbki bokiem noża. Posiekaj suszone pomidory, jeśli ich używasz.",
+          "Dodaj cebulę do mięsa i smaż, aż zmięknie i zacznie się rumienić — to ona da sosowi słodycz i kolor.",
+          "Dorzuć czosnek, kminek, ziele angielskie, liście laurowe, zioła (całe gałązki) i pomidory. Smaż jeszcze 1–2 min, aż kminek zacznie pachnieć, a mięso będzie mocno zarumienione. Uważaj, żeby nie spalić czosnku i cebuli."
         ]
       },
       {
@@ -891,7 +899,7 @@
           "Zalej mięso gorącą wodą (po zagotowaniu odstawioną na 2–3 min), tak by było całe zanurzone.",
           "Duś na wolnym ogniu pod uchyloną przykrywką co najmniej 2 h. Sos ma delikatnie bulgotać, nie wrzeć.",
           "Od czasu do czasu zamieszaj i w razie potrzeby dolej trochę wody.",
-          "Mięso jest gotowe, gdy rozpada się pod naciskiem widelca."
+          "Mięso jest gotowe, gdy rozpada się pod naciskiem widelca. Cebula do tego czasu prawie całkiem rozejdzie się w sosie."
         ]
       },
       {
@@ -901,7 +909,7 @@
           "W miseczce rozmieszaj łyżkę mąki z 2 łyżkami zimnej wody.",
           "Zahartuj rozczyn: dodawaj stopniowo ok. 2 łyżki ciepłego sosu, mieszając trzepaczką, aż nie będzie grudek.",
           "Zmniejsz ogień i wlej mieszankę cienkim strumieniem do sosu, cały czas mieszając.",
-          "Podkręć ogień na średni i redukuj, mieszając, aż sos zgęstnieje. Włóż mięso z powrotem."
+          "Podkręć ogień na średni i redukuj, mieszając, aż sos zgęstnieje. Włóż mięso z powrotem i dopraw do smaku."
         ]
       }
     ],
@@ -933,6 +941,14 @@
         "text": "Woda na powierzchni schabu paruje i ścina mięso, więc zamiast smażyć się, gotuje. Osuszony schab łapie złoto-brązowy kolor, a to on daje sosowi barwę i głębię. Żadnych bulionetek."
       },
       {
+        "title": "Cebula po mięsie, nie przed",
+        "text": "Cebula wrzucona od razu puści wodę i nie pozwoli mięsu się zrumienić. Dodana po ścięciu mięsa smaży się w jego tłuszczu, karmelizuje i podczas duszenia rozpada w sosie, dając mu słodycz i gęstość."
+      },
+      {
+        "title": "Kminek na gorący tłuszcz",
+        "text": "Całe ziarna kminku oddają aromat dopiero po krótkim podgrzaniu w tłuszczu. Dorzucony razem z czosnkiem i liściem laurowym pachnie wyraźnie, ale nie dominuje. Kto lubi mocniej, może go lekko rozgnieść."
+      },
+      {
         "title": "Zalewaj tylko gorącą wodą",
         "text": "Zimna woda na skwierczące mięso to szok termiczny. Włókna się kurczą i schab robi się gumowy."
       },
@@ -959,9 +975,9 @@
     ],
     "notes": [
       "Olej można zastąpić masłem klarowanym, mieszanką oleju i masła albo smalcem.",
-      "Cebula nie jest w bazowym przepisie — podsmażona i długo gotowana dodaje słodyczy i koloru, ale nie każdy ją lubi w mięsnym sosie.",
       "Suszone pomidory prawie całkowicie rozpadają się w sosie i dają głęboki smak — warto spróbować.",
       "Do sosu pasują też: papryka (słodka, wędzona, chili), majeranek, cząber.",
+      "Sprawdzić ilość kminku — 1 łyżeczka to wersja wyczuwalna, ale łagodna. Można zejść do 1/2 łyżeczki.",
       "Dodać zdjęcie gotowego dania."
     ]
   }
