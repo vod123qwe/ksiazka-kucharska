@@ -798,62 +798,71 @@
     "id": "kruchy-schab-w-sosie-wlasnym",
     "title": "Kruchy schab w sosie własnym",
     "category": "Mięsa",
-    "time": "ok. 1 h 45 min",
+    "time": "ok. 2,5 h (w tym 2 h duszenia)",
     "difficulty": "łatwy",
     "portions": "4–6",
-    "description": "Klasyczny polski obiad z sześciu składników. Plastry schabu obsmażone, a potem długo duszone z cebulą, liściem laurowym i zielem angielskim — mięso wychodzi kruche i rozpada się pod widelcem. Sos powstaje sam, z wody i soków z mięsa, zagęszczony na koniec odrobiną mąki.",
+    "description": "Klasyka polskiej kuchni z sześciu składników. Kawałki schabu mocno zrumienione na patelni, a potem długo i powoli duszone z czosnkiem, liściem laurowym, zielem angielskim i ziołami. Mięso rozpada się pod widelcem, a ciemny, gęsty sos robi się sam — bez bulionetek i sosów w proszku.",
     "quickIngredients": [
-      "1 kg schabu bez kości",
-      "2 duże cebule",
-      "2 liście laurowe",
-      "4–5 ziaren ziela angielskiego",
-      "2 łyżki mąki pszennej",
-      "ok. 500 ml wody",
-      "2–3 łyżki oleju",
-      "sól, pieprz"
+      "ok. 1 kg schabu bez kości",
+      "3–4 łyżki oleju rzepakowego lub oliwy",
+      "3 liście laurowe",
+      "4 kulki ziela angielskiego",
+      "3 ząbki czosnku",
+      "1 łyżka mąki pszennej",
+      "sól (ok. 1 łyżeczki), pieprz (ok. 1/2 łyżeczki)",
+      "rozmaryn + tymianek (świeże gałązki lub po 1/2 łyżeczki suszonych)",
+      "opcjonalnie: 3–4 suszone pomidory w oleju"
     ],
     "quickSteps": [
-      "Schab w plastry 1–1,5 cm — lekko rozbij — sól i pieprz.",
-      "Obsmaż partiami na oleju, 3–4 min z każdej strony. Odłóż.",
-      "Cebula w piórka — podsmaż na tym samym tłuszczu aż się zrumieni.",
-      "Mięso z powrotem + liść laurowy + ziele angielskie — zalej wodą.",
-      "Duś pod przykryciem na małym ogniu ok. 1,5 h, przewracając.",
-      "Mąka rozmieszana w zimnej wodzie — wlej do sosu, gotuj 1–2 min.",
-      "Dopraw solą i pieprzem."
+      "Schab w plastry, każdy na 2–3 kawałki — osusz ręcznikiem — sól i pieprz.",
+      "Smaż na oleju 2–3 min z każdej strony, aż się zetnie.",
+      "Dorzuć ziele, liście laurowe, zioła, rozgnieciony czosnek (i pomidory) — smaż aż mięso mocno się zrumieni.",
+      "Zalej GORĄCĄ wodą do zakrycia — duś pod uchyloną przykrywką min. 2 h na wolnym ogniu.",
+      "Mąka + 2 łyżki wody — zahartuj 2 łyżkami ciepłego sosu — wlej cienkim strumieniem, mieszając.",
+      "Redukuj na średnim ogniu, aż sos zgęstnieje."
     ],
     "ingredients": [
       {
         "group": "Mięso",
         "items": [
-          "1 kg schabu bez kości"
+          "ok. 1 kg schabu bez kości"
         ]
       },
       {
-        "group": "Warzywa",
+        "group": "Aromat",
         "items": [
-          "2 duże cebule"
-        ]
-      },
-      {
-        "group": "Przyprawy",
-        "items": [
-          "2 liście laurowe",
-          "4–5 ziaren ziela angielskiego",
-          "sól",
-          "pieprz"
+          "3 ząbki czosnku",
+          "3 liście laurowe",
+          "4 kulki ziela angielskiego",
+          "gałązka świeżego rozmarynu (ok. 10 cm) lub 1/2 łyżeczki suszonego",
+          "3–4 gałązki świeżego tymianku lub 1/2 łyżeczki suszonego"
         ]
       },
       {
         "group": "Sos",
         "items": [
-          "2 łyżki mąki pszennej",
-          "ok. 500 ml wody"
+          "1 łyżka mąki pszennej",
+          "gorąca woda do zalania mięsa"
         ]
       },
       {
         "group": "Do smażenia",
         "items": [
-          "2–3 łyżki oleju"
+          "3–4 łyżki oleju rzepakowego lub oliwy"
+        ]
+      },
+      {
+        "group": "Przyprawy",
+        "items": [
+          "ok. 1 łyżeczki drobnej soli",
+          "ok. 1/2 łyżeczki pieprzu"
+        ]
+      },
+      {
+        "group": "Opcjonalnie",
+        "items": [
+          "3–4 suszone pomidory w oleju, posiekane",
+          "1 cebula, pokrojona w piórka"
         ]
       }
     ],
@@ -861,73 +870,98 @@
       {
         "group": "Mięso",
         "items": [
-          "Schab pokrój w plastry grubości ok. 1–1,5 cm.",
-          "Każdy plaster lekko rozbij tłuczkiem — nie na cienki kotlet, tylko żeby wyrównać grubość.",
-          "Dopraw solą i pieprzem z obu stron."
+          "Schab oczyść z błon i nadmiaru tłuszczu. Pokrój w plastry, a każdy plaster na 2–3 kawałki.",
+          "Osusz dokładnie ręcznikiem papierowym — mokre mięso nie zrumieni się, tylko ugotuje w parze.",
+          "Oprósz solą i pieprzem z obu stron."
         ]
       },
       {
-        "group": "Obsmażanie",
+        "group": "Smażenie",
         "items": [
-          "Rozgrzej olej na dużej patelni lub w szerokim garnku.",
-          "Obsmaż plastry partiami, na średnim ogniu, 3–4 min z każdej strony — mają się zrumienić.",
-          "Odkładaj usmażone kawałki na talerz."
+          "Rozgrzej olej na głębokiej patelni lub w szerokim garnku.",
+          "Smaż kawałki 2–3 min z każdej strony, aż mięso się zetnie.",
+          "W tym czasie obierz czosnek i rozgnieć ząbki bokiem noża. Posiekaj suszone pomidory, jeśli ich używasz.",
+          "Dorzuć na patelnię ziele angielskie, liście laurowe, zioła (całe gałązki), czosnek i pomidory.",
+          "Smaż dalej na średnim ogniu, aż mięso będzie mocno zarumienione — im ciemniejsze mięso, tym ciemniejszy sos. Uważaj, żeby nie spalić czosnku."
         ]
       },
       {
-        "group": "Cebula i duszenie",
+        "group": "Duszenie",
         "items": [
-          "Cebule pokrój w piórka lub półplasterki. Wrzuć na ten sam tłuszcz i smaż, aż się zeszklą i zaczną rumienić.",
-          "Włóż z powrotem mięso, dodaj liście laurowe i ziele angielskie.",
-          "Zalej wodą tak, aby mięso było prawie przykryte. Doprowadź do wrzenia.",
-          "Zmniejsz ogień do małego, przykryj i duś ok. 1,5 h. Co jakiś czas przewróć plastry. Mięso jest gotowe, gdy łatwo rozchodzi się pod widelcem."
+          "Zalej mięso gorącą wodą (po zagotowaniu odstawioną na 2–3 min), tak by było całe zanurzone.",
+          "Duś na wolnym ogniu pod uchyloną przykrywką co najmniej 2 h. Sos ma delikatnie bulgotać, nie wrzeć.",
+          "Od czasu do czasu zamieszaj i w razie potrzeby dolej trochę wody.",
+          "Mięso jest gotowe, gdy rozpada się pod naciskiem widelca."
         ]
       },
       {
         "group": "Zagęszczenie sosu",
         "items": [
-          "Mąkę rozmieszaj w połowie szklanki zimnej wody na gładką zawiesinę bez grudek.",
-          "Wlej do bulgoczącego sosu, energicznie mieszając. Gotuj 1–2 min, aż sos zgęstnieje.",
-          "Dopraw solą i pieprzem do smaku."
+          "Jeśli chcesz gładki sos bez przypraw, ostrożnie wyjmij mięso na talerz, a sos przelej przez drobne sito.",
+          "W miseczce rozmieszaj łyżkę mąki z 2 łyżkami zimnej wody.",
+          "Zahartuj rozczyn: dodawaj stopniowo ok. 2 łyżki ciepłego sosu, mieszając trzepaczką, aż nie będzie grudek.",
+          "Zmniejsz ogień i wlej mieszankę cienkim strumieniem do sosu, cały czas mieszając.",
+          "Podkręć ogień na średni i redukuj, mieszając, aż sos zgęstnieje. Włóż mięso z powrotem."
         ]
       }
     ],
     "serving": [
       {
-        "name": "Ziemniaki z wody lub puree",
-        "desc": "Klasyka — dobrze zbierają sos z talerza."
+        "name": "Tłuczone ziemniaki",
+        "desc": "Klasyka — świetnie zbierają gęsty sos."
       },
       {
-        "name": "Kluski śląskie",
-        "desc": "Sos idealnie wchodzi w dołek."
+        "name": "Kluski śląskie, kopytka, lane kluski",
+        "desc": "Sos idealnie wchodzi w dołek i zagłębienia."
       },
       {
-        "name": "Buraczki zasmażane",
-        "desc": "Słodko-kwaśny kontrast do mięsnego sosu."
+        "name": "Kasze",
+        "desc": "Jęczmienna, jaglana lub gryczana. Sycąca, mniej oczywista wersja."
       },
       {
-        "name": "Surówka z kapusty kiszonej",
-        "desc": "Odświeża i przecina tłustość."
+        "name": "Kluski na parze (pampuchy)",
+        "desc": "Puszyste, chłoną sos jak gąbka."
+      },
+      {
+        "name": "Makaron, placki ziemniaczane, pieczywo",
+        "desc": "Szybkie alternatywy, gdy nie ma czasu na kluski."
       }
     ],
     "secrets": [
       {
-        "title": "Długie duszenie na małym ogniu",
-        "text": "Kruchość nie bierze się z rozbicia, tylko z czasu. Gotowanie w zbyt wysokiej temperaturze ściąga białka i mięso robi się twarde, mimo że jest „ugotowane”."
+        "title": "Suche mięso = ciemny sos",
+        "text": "Woda na powierzchni schabu paruje i ścina mięso, więc zamiast smażyć się, gotuje. Osuszony schab łapie złoto-brązowy kolor, a to on daje sosowi barwę i głębię. Żadnych bulionetek."
       },
       {
-        "title": "Najpierw rumienienie",
-        "text": "Przypieczona skórka na mięsie i podsmażona cebula to cała głębia smaku sosu. Bez tego sos będzie wodnisty i blady."
+        "title": "Zalewaj tylko gorącą wodą",
+        "text": "Zimna woda na skwierczące mięso to szok termiczny. Włókna się kurczą i schab robi się gumowy."
       },
       {
-        "title": "Mąka tylko w zimnej wodzie",
-        "text": "Wsypana bezpośrednio do gorącego sosu zrobi grudki. Zawiesina wlana przy mieszaniu daje gładki sos."
+        "title": "Wolno i długo",
+        "text": "Sos ma się „pitrasić” na małym ogniu, nie gotować jak woda na makaron. Po 2–3 h mięso samo się rozpada."
+      },
+      {
+        "title": "Czosnek rozgnieciony, nie posiekany",
+        "text": "Duży kawałek od razu oddaje aromat, ale wytrzyma dłuższe smażenie bez spalenia. Spalony czosnek jest gorzki i psuje cały sos."
+      },
+      {
+        "title": "Całe gałązki ziół",
+        "text": "Łodygi rozmarynu i tymianku mają więcej aromatu niż listki. Przy długim gotowaniu warto je zostawić."
+      },
+      {
+        "title": "Skrót na kruchość",
+        "text": "Gdy brakuje czasu, dolej chlust whisky, brandy lub wódki albo soku z kiszonych ogórków czy kapusty. Przyspiesza kruszenie mięsa i dodaje wytrawnej nuty. Dodawaj w trakcie duszenia, przed zagęszczeniem."
+      },
+      {
+        "title": "Ten sam garnek",
+        "text": "Sos rób w naczyniu, w którym smażyło się mięso. Wszystko, co przypiekło się na dnie, trafia do sosu."
       }
     ],
     "notes": [
-      "Zweryfikować ilości ze źródłem (wilkuchnia.pl, kwiecień 2019) — zwłaszcza mąkę i wodę.",
-      "Sprawdzić, czy zamiast wody nie użyć bulionu — sos będzie bardziej wyrazisty.",
-      "Ustalić grubość plastrów: 1 cm szybciej zmięknie, 1,5 cm zostanie bardziej soczyste.",
+      "Olej można zastąpić masłem klarowanym, mieszanką oleju i masła albo smalcem.",
+      "Cebula nie jest w bazowym przepisie — podsmażona i długo gotowana dodaje słodyczy i koloru, ale nie każdy ją lubi w mięsnym sosie.",
+      "Suszone pomidory prawie całkowicie rozpadają się w sosie i dają głęboki smak — warto spróbować.",
+      "Do sosu pasują też: papryka (słodka, wędzona, chili), majeranek, cząber.",
       "Dodać zdjęcie gotowego dania."
     ]
   }
