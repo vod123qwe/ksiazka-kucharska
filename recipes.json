@@ -815,11 +815,11 @@
       "opcjonalnie 3–4 suszone pomidory w oleju"
     ],
     "quickSteps": [
-      "Schab pokrój w plastry, a każdy plaster na 2–3 kawałki. Osusz ręcznikiem papierowym i oprósz solą oraz pieprzem.",
+      "Schab pokrój w plastry grubości 1,5–2 cm, a każdy plaster na 2–3 kawałki. Osusz ręcznikiem papierowym i oprósz solą oraz pieprzem.",
       "Obsmaż mięso na rozgrzanym oleju po 2–3 minuty z każdej strony, aż się zetnie.",
       "Dodaj cebulę pokrojoną w piórka i smaż, aż zmięknie i zacznie się rumienić.",
       "Dorzuć rozgnieciony czosnek, kminek, liście laurowe, ziele angielskie i zioła. Smaż jeszcze chwilę, aż mięso będzie mocno zarumienione.",
-      "Zalej gorącą wodą tak, aby mięso było zanurzone, i duś pod uchyloną przykrywką co najmniej 2 godziny.",
+      "Zalej ok. 600–700 ml gorącej wody, tak aby mięso było ledwo zakryte, i duś pod uchyloną przykrywką co najmniej 2 godziny.",
       "Rozmieszaj mąkę z 2 łyżkami zimnej wody, zahartuj kilkoma łyżkami ciepłego sosu i wlej do garnka cienkim strumieniem, mieszając.",
       "Gotuj na średnim ogniu, aż sos zgęstnieje, i dopraw do smaku."
     ],
@@ -851,7 +851,7 @@
         "group": "Sos",
         "items": [
           "1 łyżka mąki pszennej",
-          "gorąca woda do zalania mięsa"
+          "ok. 600–700 ml gorącej wody (tyle, by mięso było ledwo zakryte)"
         ]
       },
       {
@@ -878,7 +878,7 @@
       {
         "group": "Mięso",
         "items": [
-          "Schab oczyść z błon i nadmiaru tłuszczu. Pokrój w plastry, a każdy plaster na 2–3 kawałki.",
+          "Schab oczyść z błon i nadmiaru tłuszczu. Pokrój w plastry grubości 1,5–2 cm, a każdy plaster na 2–3 kawałki. Lekko wyrównaj tłuczkiem, ale nie rozbijaj na cienko — cieńsze kawałki po 2 h duszenia wyschną i rozpadną się na strzępy.",
           "Osusz dokładnie ręcznikiem papierowym — mokre mięso nie zrumieni się, tylko ugotuje w parze.",
           "Oprósz solą i pieprzem z obu stron."
         ]
@@ -896,9 +896,9 @@
       {
         "group": "Duszenie",
         "items": [
-          "Zalej mięso gorącą wodą (po zagotowaniu odstawioną na 2–3 min), tak by było całe zanurzone.",
+          "Zalej mięso ok. 600–700 ml gorącej wody (po zagotowaniu odstawionej na 2–3 min) — tyle, by było ledwo zakryte.",
           "Duś na wolnym ogniu pod uchyloną przykrywką co najmniej 2 h. Sos ma delikatnie bulgotać, nie wrzeć.",
-          "Od czasu do czasu zamieszaj i w razie potrzeby dolej trochę wody.",
+          "Od czasu do czasu zamieszaj. Płyn odparowuje, więc w razie potrzeby dolewaj po trochu gorącej wody, żeby mięso pozostało zakryte.",
           "Mięso jest gotowe, gdy rozpada się pod naciskiem widelca. Cebula do tego czasu prawie całkiem rozejdzie się w sosie."
         ]
       },
@@ -977,7 +977,9 @@
       "Olej można zastąpić masłem klarowanym, mieszanką oleju i masła albo smalcem.",
       "Suszone pomidory prawie całkowicie rozpadają się w sosie i dają głęboki smak — warto spróbować.",
       "Do sosu pasują też: papryka (słodka, wędzona, chili), majeranek, cząber.",
-      "Sprawdzić ilość kminku — 1 łyżeczka to wersja wyczuwalna, ale łagodna. Można zejść do 1/2 łyżeczki.",
+      "Wodę można zastąpić lekkim bulionem drobiowym lub warzywnym — sos będzie pełniejszy, ale zmniejsz wtedy sól o połowę. Bulionetek i kostek unikaj, zdominują smak.",
+    "Wariant z natarciem: 1/2 łyżeczki mielonego kminku dodaj do soli i pieprzu przed smażeniem, a 1/2 łyżeczki całego wrzuć na tłuszcz jak w przepisie. Sam cały kminek na mięsie odpada i łatwo się przypala.",
+    "Ilość kminku: 1 łyżeczka to wersja wyczuwalna, ale łagodna. Można zejść do 1/2 łyżeczki.",
       "Dodać zdjęcie gotowego dania."
     ]
   }
