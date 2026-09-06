@@ -36,7 +36,7 @@ Na podstawie przepisu z bloga Wilkuchnia (kwiecień 2019), rozszerzonego o cebul
 
 **Sos**
 - 1 łyżka mąki pszennej
-- gorąca woda do zalania mięsa
+- ok. 600–700 ml gorącej wody (tyle, by mięso było ledwo zakryte)
 
 **Do smażenia**
 - 3–4 łyżki oleju rzepakowego lub oliwy
@@ -53,7 +53,7 @@ Na podstawie przepisu z bloga Wilkuchnia (kwiecień 2019), rozszerzonego o cebul
 ## Przygotowanie
 
 ### Mięso
-1. Schab oczyść z błon i nadmiaru tłuszczu. Pokrój w plastry, a każdy plaster na 2–3 kawałki.
+1. Schab oczyść z błon i nadmiaru tłuszczu. Pokrój w plastry grubości 1,5–2 cm, a każdy plaster na 2–3 kawałki. Lekko wyrównaj tłuczkiem, ale nie rozbijaj na cienko — cieńsze kawałki po 2 h duszenia wyschną i rozpadną się na strzępy.
 2. Osusz dokładnie ręcznikiem papierowym — mokre mięso nie zrumieni się, tylko ugotuje w parze.
 3. Oprósz solą i pieprzem z obu stron.
 
@@ -68,9 +68,9 @@ Na podstawie przepisu z bloga Wilkuchnia (kwiecień 2019), rozszerzonego o cebul
    Uważaj, żeby nie spalić czosnku i cebuli.
 
 ### Duszenie
-1. Zalej mięso **gorącą** wodą (po zagotowaniu odstawioną na 2–3 min), tak by było całe zanurzone.
+1. Zalej mięso ok. 600–700 ml **gorącej** wody (po zagotowaniu odstawionej na 2–3 min) — tyle, by było ledwo zakryte.
 2. Duś na wolnym ogniu pod uchyloną przykrywką co najmniej 2 h. Sos ma delikatnie bulgotać, nie wrzeć.
-3. Od czasu do czasu zamieszaj i w razie potrzeby dolej trochę wody.
+3. Od czasu do czasu zamieszaj. Płyn odparowuje, więc w razie potrzeby dolewaj po trochu gorącej wody, żeby mięso pozostało zakryte.
 4. Mięso jest gotowe, gdy rozpada się pod naciskiem widelca. Cebula do tego czasu prawie całkiem rozejdzie się w sosie.
 
 ### Zagęszczenie sosu
@@ -103,6 +103,9 @@ Dodana po ścięciu mięsa smaży się w jego tłuszczu, karmelizuje i podczas d
 **Kminek na gorący tłuszcz** — całe ziarna kminku oddają aromat dopiero po krótkim podgrzaniu w tłuszczu.
 Dorzucony razem z czosnkiem i liściem laurowym pachnie wyraźnie, ale nie dominuje. Kto lubi mocniej, może go lekko rozgnieść.
 
+**Plastry 1,5–2 cm** — do krótkiego duszenia wystarczy 1 cm, ale przy 2 h w sosie cienkie plastry wysychają i rozpadają się na włókna.
+Grubsze zostają soczyste i trzymają kształt, mimo że rozchodzą się pod widelcem.
+
 **Zalewaj tylko gorącą wodą** — zimna woda na skwierczące mięso to szok termiczny. Włókna się kurczą i schab robi się gumowy.
 
 **Wolno i długo** — sos ma się „pitrasić” na małym ogniu, nie gotować jak woda na makaron. Po 2–3 h mięso samo się rozpada.
@@ -124,5 +127,9 @@ Zmienia strukturę mięsa i przyspiesza kruszenie. Dodawaj w trakcie duszenia, p
 - Olej można zastąpić masłem klarowanym, mieszanką oleju i masła albo smalcem.
 - Suszone pomidory prawie całkowicie rozpadają się w sosie i dają głęboki smak — warto spróbować.
 - Do sosu pasują też: papryka (słodka, wędzona, chili), majeranek, cząber.
-- Sprawdzić ilość kminku — 1 łyżeczka to wersja wyczuwalna, ale łagodna. Można zejść do 1/2 łyżeczki.
+- Wodę można zastąpić lekkim bulionem drobiowym lub warzywnym — sos będzie pełniejszy, ale zmniejsz wtedy sól o połowę.
+  Bulionetek i kostek unikaj, zdominują smak.
+- Wariant z natarciem: 1/2 łyżeczki mielonego kminku dodaj do soli i pieprzu przed smażeniem, a 1/2 łyżeczki całego
+  wrzuć na tłuszcz jak w przepisie. Sam cały kminek na mięsie odpada i łatwo się przypala.
+- Ilość kminku: 1 łyżeczka to wersja wyczuwalna, ale łagodna. Można zejść do 1/2 łyżeczki.
 - Dodać zdjęcie gotowego dania.
