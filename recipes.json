@@ -982,5 +982,441 @@
     "Ilość kminku: 1 łyżeczka to wersja wyczuwalna, ale łagodna. Można zejść do 1/2 łyżeczki.",
       "Dodać zdjęcie gotowego dania."
     ]
+  },
+  {
+    "id": "roladki-slaskie-ze-schabu",
+    "title": "Roladki śląskie ze schabu",
+    "category": "Mięsa",
+    "time": "ok. 1 h 30 min (w tym 45–60 min duszenia)",
+    "difficulty": "średni",
+    "portions": "4 (8 roladek)",
+    "description": "Śląska klasyka w wersji ze schabu zamiast wołowiny. Cienko rozbite plastry zawinięte z boczkiem, ogórkiem kiszonym, cebulą i musztardą, mocno zrumienione i krótko duszone w ciemnym sosie. Schab jest chudy, więc cała sztuka polega na tym, żeby go nie przesuszyć: tłuszcz daje boczek, wilgoć ogórek, a czas duszenia jest o połowę krótszy niż przy wołowinie.",
+    "quickIngredients": [
+      "8 plastrów schabu bez kości (ok. 1 kg)",
+      "8 cienkich plastrów wędzonego boczku",
+      "2–3 ogórki kiszone",
+      "2 cebule (1 do farszu, 1 do sosu)",
+      "3 łyżki musztardy sarepskiej",
+      "opcjonalnie 100 g kiełbasy śląskiej",
+      "2 liście laurowe, 3 kulki ziela angielskiego",
+      "ok. 500 ml gorącej wody lub bulionu",
+      "1 łyżka mąki pszennej",
+      "3 łyżki oleju lub smalcu, sól, pieprz, słodka papryka"
+    ],
+    "quickSteps": [
+      "Schab pokrój w plastry 1 cm, rozbij przez folię na ok. 0,5 cm, posól, popieprz i posmaruj musztardą.",
+      "Na każdy plaster połóż plaster boczku, słupek ogórka, trochę cebuli i kiełbasy. Zwiń ciasno, zapnij wykałaczką.",
+      "Obtocz roladki w słodkiej papryce i obsmaż na mocno rozgrzanym tłuszczu ze wszystkich stron.",
+      "Dodaj cebulę w piórka, liść laurowy i ziele, zalej gorącą wodą do połowy wysokości roladek.",
+      "Duś pod przykryciem na małym ogniu 45–60 min, przewracając w połowie. Sprawdź widelcem, nie przeciągaj.",
+      "Wyjmij roladki, zagęść sos mąką rozmieszaną w zimnej wodzie, dopraw musztardą i sokiem z ogórków."
+    ],
+    "ingredients": [
+      {
+        "group": "Mięso",
+        "items": [
+          "ok. 1 kg schabu bez kości (8 plastrów po 1 cm, z grubszego końca)"
+        ]
+      },
+      {
+        "group": "Farsz",
+        "items": [
+          "8 cienkich plastrów wędzonego boczku",
+          "2–3 ogórki kiszone, pokrojone w słupki",
+          "1 cebula, drobno posiekana",
+          "3 łyżki musztardy sarepskiej (plus 1 łyżeczka do sosu)",
+          "opcjonalnie 100 g kiełbasy śląskiej w słupkach"
+        ]
+      },
+      {
+        "group": "Sos",
+        "items": [
+          "1 cebula w piórka",
+          "2 liście laurowe",
+          "3 kulki ziela angielskiego",
+          "ok. 500 ml gorącej wody lub lekkiego bulionu",
+          "2–3 łyżki soku z ogórków kiszonych",
+          "1 łyżka mąki pszennej"
+        ]
+      },
+      {
+        "group": "Do smażenia",
+        "items": [
+          "3 łyżki oleju lub smalcu"
+        ]
+      },
+      {
+        "group": "Przyprawy",
+        "items": [
+          "sól",
+          "pieprz",
+          "1 łyżeczka słodkiej papryki"
+        ]
+      },
+      {
+        "group": "Dodatkowo",
+        "items": [
+          "wykałaczki lub nić kuchenna"
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "group": "Mięso",
+        "items": [
+          "Schab pokrój w poprzek włókien w plastry ok. 1 cm. Każdy włóż między dwa kawałki folii i rozbij tłuczkiem na ok. 0,5 cm — równo, bez dziur. Plaster powinien mieć rozmiar dłoni.",
+          "Osusz ręcznikiem papierowym, oprósz solą i pieprzem z obu stron, a wierzch posmaruj cienko musztardą."
+        ]
+      },
+      {
+        "group": "Zwijanie",
+        "items": [
+          "Na każdym plastrze ułóż plaster boczku, wzdłuż krawędzi słupek ogórka, odrobinę cebuli i opcjonalnie słupek kiełbasy. Farszu ma być umiarkowanie — przeładowana roladka się rozwija.",
+          "Zawiń boki do środka, a potem ciasno zwiń od strony farszu. Zepnij wykałaczką lub zwiąż nicią.",
+          "Obtocz roladki w słodkiej papryce — da kolor sosowi i ładną skórkę."
+        ]
+      },
+      {
+        "group": "Smażenie",
+        "items": [
+          "Mocno rozgrzej tłuszcz w szerokim garnku lub głębokiej patelni.",
+          "Obsmaż roladki ze wszystkich stron na złoty brąz, zaczynając od strony ze szwem — zamknie się i nie rozwinie. Nie przepełniaj garnka, smaż partiami.",
+          "Wyjmij roladki, na ten sam tłuszcz wrzuć cebulę w piórka i smaż, aż zbrązowieje."
+        ]
+      },
+      {
+        "group": "Duszenie",
+        "items": [
+          "Włóż roladki z powrotem, dodaj liść laurowy i ziele angielskie. Zalej gorącą wodą lub bulionem do połowy wysokości roladek.",
+          "Dodaj sok z ogórków. Przykryj i duś na małym ogniu 45–60 min, przewracając raz w połowie. Sos ma ledwo bulgotać.",
+          "Po 45 min sprawdź widelcem: ma wchodzić bez oporu. Schab duszony dłużej niż 1 h robi się suchy i włóknisty — to nie wołowina."
+        ]
+      },
+      {
+        "group": "Sos",
+        "items": [
+          "Wyjmij roladki na talerz i przykryj folią. Usuń wykałaczki.",
+          "Mąkę rozmieszaj w 3 łyżkach zimnej wody, zahartuj łyżką gorącego sosu i wlej do garnka cienkim strumieniem, mieszając.",
+          "Gotuj 2–3 min, aż zgęstnieje. Dopraw łyżeczką musztardy, solą i pieprzem. Włóż roladki do sosu na minutę przed podaniem."
+        ]
+      }
+    ],
+    "serving": [
+      {
+        "name": "Kluski śląskie",
+        "desc": "Obowiązkowy zestaw — dołek w klusce jest właśnie na ten sos. Przepis w książce."
+      },
+      {
+        "name": "Buraczki zasmażane",
+        "desc": "Słodko-kwaśny kontrast do ciemnego, musztardowego sosu. Przepis w książce."
+      },
+      {
+        "name": "Modra kapusta",
+        "desc": "Tradycyjny śląski trzeci element talerza, zamiast lub obok buraczków."
+      },
+      {
+        "name": "Ogórek kiszony",
+        "desc": "Jeśli nie ma czasu na buraczki — kwaśny dodatek jest konieczny."
+      }
+    ],
+    "secrets": [
+      {
+        "title": "Dlaczego schab wymaga innego podejścia niż wołowina",
+        "text": "Rolada śląska to tradycyjnie wołowina (ligawa lub udziec), duszona 1,5–2 h, bo ma dużo kolagenu, który zamienia się w żelatynę. Schab kolagenu prawie nie ma — po 2 h nie zmięknie bardziej, tylko wyschnie. Dlatego dusimy krótko, a soczystość zapewniamy tłuszczem z boczku i wilgocią z ogórka wewnątrz roladki."
+      },
+      {
+        "title": "Grubszy koniec schabu",
+        "text": "Plastry z grubszej części dają większe płaty po rozbiciu. Z cienkiego końca wychodzą małe roladki, które łatwiej przesuszyć."
+      },
+      {
+        "title": "Rozbijanie przez folię",
+        "text": "Chroni włókna przed poszarpaniem i daje równy płat. Celuj w 0,5 cm — cieńszy pęknie przy zwijaniu, grubszy nie zmięknie w 45 min."
+      },
+      {
+        "title": "Szew na dół jako pierwszy",
+        "text": "Pierwsze sekundy na gorącym tłuszczu ścinają białko i zamykają roladkę. Potem wykałaczkę można nawet wyjąć."
+      },
+      {
+        "title": "Sok z ogórków w sosie",
+        "text": "Kwas lekko zmiękcza mięso i daje wytrawną nutę, która w rolady śląskiej jest kluczowa. Dodawaj w trakcie duszenia, nie na końcu."
+      },
+      {
+        "title": "Woda do połowy, nie do zakrycia",
+        "text": "Roladki duszą się w parze i sosie jednocześnie. Zalane całe oddają za dużo smaku do płynu i rozwijają się przy mieszaniu."
+      }
+    ],
+    "notes": [
+      "Wariant z marynatą: plastry posmarowane musztardą zostawić w lodówce na noc — schab będzie bardziej soczysty i wyrazisty.",
+      "Wariant z solanką: 30 min w wodzie z 1 łyżką soli na litr przed rozbiciem. Działa, ale wtedy mniej soli na mięso.",
+      "Kiełbasa w farszu to wersja bardziej sycąca; bez niej roladki są lżejsze i bardziej musztardowo-ogórkowe.",
+      "Sprawdzić czas duszenia na własnym schabie — 45 min to punkt wyjścia, 60 min to maksimum.",
+      "Dodać zdjęcie gotowego dania."
+    ]
+  },
+  {
+    "id": "kluski-slaskie",
+    "title": "Kluski śląskie",
+    "category": "Inne",
+    "time": "ok. 1 h (w tym 25 min gotowania ziemniaków)",
+    "difficulty": "łatwy / średni",
+    "portions": "4",
+    "description": "Gładkie, sprężyste kluski z gotowanych ziemniaków i mąki ziemniaczanej, z charakterystycznym dołkiem na sos. Całość opiera się na jednej proporcji: jedna czwarta objętości ziemniaków zastąpiona mąką ziemniaczaną. Bez pszennej mąki, bez zbędnych dodatków.",
+    "quickIngredients": [
+      "1 kg mączystych ziemniaków (typ C)",
+      "mąka ziemniaczana — 1/4 objętości ugotowanych ziemniaków (ok. 150–180 g)",
+      "1 jajko (opcjonalnie)",
+      "sól"
+    ],
+    "quickSteps": [
+      "Ziemniaki ugotuj w osolonej wodzie, odparuj i gorące przeciśnij przez praskę.",
+      "Masę wyrównaj w misce, podziel na ćwiartki, jedną wyjmij i wsyp w jej miejsce mąkę ziemniaczaną do tej samej wysokości.",
+      "Wróć wyjęte ziemniaki, dodaj jajko i szczyptę soli. Szybko zagnieć gładkie, jeszcze ciepłe ciasto.",
+      "Formuj kulki wielkości orzecha włoskiego, lekko spłaszcz i zrób palcem dołek.",
+      "Wrzucaj partiami do lekko wrzącej, osolonej wody. Gotuj 2–3 min od wypłynięcia.",
+      "Wyjmuj łyżką cedzakową i podawaj od razu z sosem."
+    ],
+    "ingredients": [
+      {
+        "group": "Ciasto",
+        "items": [
+          "1 kg mączystych ziemniaków (typ C), np. Irga, Bryza, Tajfun",
+          "mąka ziemniaczana — 1/4 objętości ugotowanych ziemniaków (zwykle ok. 150–180 g)",
+          "1 jajko (opcjonalnie, dla pewności, że się nie rozpadną)",
+          "1/2 łyżeczki soli"
+        ]
+      },
+      {
+        "group": "Do gotowania",
+        "items": [
+          "duży garnek osolonej wody"
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "group": "Ziemniaki",
+        "items": [
+          "Ziemniaki obierz i ugotuj w osolonej wodzie do miękkości, ok. 20–25 min.",
+          "Odcedź dokładnie i odparuj przez minutę na małym ogniu, potrząsając garnkiem. Im suchsze ziemniaki, tym mniej mąki potrzeba i tym delikatniejsze kluski.",
+          "Gorące przeciśnij przez praskę do dużej miski. Nie używaj blendera — masa zrobi się kleista."
+        ]
+      },
+      {
+        "group": "Metoda ćwiartki",
+        "items": [
+          "Masę ziemniaczaną wyrównaj płasko w misce i podziel nożem na cztery równe części.",
+          "Jedną ćwiartkę wyjmij na talerz. W powstałe miejsce wsyp mąkę ziemniaczaną dokładnie do wysokości pozostałych ziemniaków.",
+          "Wyjętą ćwiartkę wróć na wierzch, dodaj jajko i sól."
+        ]
+      },
+      {
+        "group": "Ciasto",
+        "items": [
+          "Zagnieć szybko, jeszcze gdy ziemniaki są ciepłe — mąka ziemniaczana wiąże pod wpływem ciepła. Ciasto ma być gładkie, miękkie i nie kleić się do rąk.",
+          "Nie wyrabiaj dłużej niż minutę. Przerobione ciasto daje twarde, gumowe kluski.",
+          "Jeśli klei się mocno, dosyp łyżkę mąki ziemniaczanej. Jeśli się kruszy, dodaj łyżkę gorącej wody."
+        ]
+      },
+      {
+        "group": "Formowanie",
+        "items": [
+          "Odrywaj kawałki wielkości orzecha włoskiego i toczy w dłoniach na gładkie kulki.",
+          "Każdą lekko spłaszcz i zrób palcem dołek w środku — nie na wylot. Układaj na oprószonej mąką desce.",
+          "Przed gotowaniem zrób próbną kluskę: jeśli się rozpadnie, dodaj do ciasta trochę mąki ziemniaczanej."
+        ]
+      },
+      {
+        "group": "Gotowanie",
+        "items": [
+          "W dużym garnku zagotuj osoloną wodę i zmniejsz ogień, by woda ledwo wrzała. Mocne wrzenie rozbija kluski.",
+          "Wrzucaj partiami, tak by pływały swobodnie. Delikatnie zamieszaj raz, żeby nie przykleiły się do dna.",
+          "Gotuj 2–3 min od wypłynięcia na powierzchnię. Wyjmij łyżką cedzakową na półmisek, nie przepłukuj."
+        ]
+      }
+    ],
+    "serving": [
+      {
+        "name": "Roladki śląskie",
+        "desc": "Klasyczny duet — dołek w klusce jest na ciemny sos z rolad."
+      },
+      {
+        "name": "Schab w sosie własnym",
+        "desc": "Każdy gęsty mięsny sos z książki pasuje."
+      },
+      {
+        "name": "Gulasz z łopatki",
+        "desc": "Zamiast ziemniaków czy kaszy."
+      },
+      {
+        "name": "Masło i cukier",
+        "desc": "Śląska wersja na słodko dla dzieci, albo kluski odsmażane następnego dnia na maśle."
+      }
+    ],
+    "secrets": [
+      {
+        "title": "Proporcja objętościowa, nie wagowa",
+        "text": "Ziemniaki różnią się wilgotnością, więc przepisy wagowe zawodzą. Metoda ćwiartki automatycznie dostosowuje ilość mąki do konkretnych ziemniaków — stąd jest używana od pokoleń."
+      },
+      {
+        "title": "Ciepłe ziemniaki",
+        "text": "Skrobia ziemniaczana kleikuje w cieple i spaja ciasto. Zimne ziemniaki dają ciasto, które się kruszy, i kuszą do dosypywania mąki, przez co kluski robią się gumowe."
+      },
+      {
+        "title": "Praska, nie tłuczek i nie blender",
+        "text": "Praska rozdziela komórki ziemniaka bez uwalniania nadmiaru skrobi. Blender i energiczne ugniatanie robią klej."
+      },
+      {
+        "title": "Dołek ma funkcję",
+        "text": "Nie tylko trzyma sos — spłaszczona kluska z dołkiem gotuje się równomiernie i nie ma surowego środka."
+      },
+      {
+        "title": "Mączyste ziemniaki",
+        "text": "Typ C (sałatkowe typ A się nie nadają). Mają więcej skrobi i mniej wody, kluski wychodzą lżejsze."
+      }
+    ],
+    "notes": [
+      "Wersja tradycyjna jest bez jajka. Jajko to zabezpieczenie dla początkujących; z czasem można je pominąć.",
+      "Z 1 kg ziemniaków wychodzi ok. 30–35 klusek.",
+      "Surowe uformowane kluski można zamrozić na desce, a potem przesypać do woreczka. Gotować bez rozmrażania, ok. minuty dłużej.",
+      "Ciasto nie czeka — formuj i gotuj od razu, bo po ostygnięciu zaczyna się kruszyć."
+    ]
+  },
+  {
+    "id": "buraczki-zasmazane",
+    "title": "Buraczki zasmażane",
+    "category": "Inne",
+    "time": "ok. 1 h 30 min (w tym 1 h pieczenia buraków)",
+    "difficulty": "łatwy",
+    "portions": "4–6",
+    "description": "Ciepłe, słodko-kwaśne buraczki na maśle, zagęszczone lekką zasmażką. Buraki pieczone w całości zamiast gotowanych — mają głębszy, bardziej skoncentrowany smak i nie tracą koloru. Idealny kontrast do ciemnych mięsnych sosów: rolad, schabu, gulaszu.",
+    "quickIngredients": [
+      "1 kg buraków (średnie, podobnej wielkości)",
+      "1 cebula",
+      "2 łyżki masła",
+      "1 łyżka mąki pszennej",
+      "1 kwaśne jabłko (opcjonalnie)",
+      "sok z 1/2 cytryny lub 1–2 łyżki octu jabłkowego",
+      "1 łyżeczka cukru",
+      "sól, pieprz",
+      "opcjonalnie 1 łyżeczka chrzanu lub 2 łyżki śmietany 18%"
+    ],
+    "quickSteps": [
+      "Buraki umyj, zawiń w folię i piecz w 200°C ok. 1 h, aż nóż wchodzi bez oporu. Ostudź, obierz, zetrzyj na grubych oczkach.",
+      "Cebulę posiekaj drobno i zeszklij na maśle. Posyp mąką i smaż minutę, mieszając.",
+      "Dodaj buraki i starte jabłko, wymieszaj. Jeśli masa jest sucha, dolej 2–3 łyżki wody.",
+      "Duś 10 min na małym ogniu, mieszając.",
+      "Dopraw sokiem z cytryny, cukrem, solą i pieprzem. Na koniec chrzan lub śmietana, jeśli używasz."
+    ],
+    "ingredients": [
+      {
+        "group": "Buraki",
+        "items": [
+          "1 kg buraków, średnie, podobnej wielkości",
+          "folia aluminiowa"
+        ]
+      },
+      {
+        "group": "Zasmażka",
+        "items": [
+          "1 cebula, drobno posiekana",
+          "2 łyżki masła",
+          "1 łyżka mąki pszennej"
+        ]
+      },
+      {
+        "group": "Doprawienie",
+        "items": [
+          "1 kwaśne jabłko (szara reneta, antonówka), starte — opcjonalnie",
+          "sok z 1/2 cytryny lub 1–2 łyżki octu jabłkowego",
+          "1 łyżeczka cukru",
+          "sól, pieprz"
+        ]
+      },
+      {
+        "group": "Opcjonalnie",
+        "items": [
+          "1 łyżeczka tartego chrzanu",
+          "2 łyżki śmietany 18%"
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "group": "Pieczenie buraków",
+        "items": [
+          "Buraki dokładnie umyj, nie obieraj. Każdy zawiń szczelnie w folię aluminiową.",
+          "Piecz w 200°C ok. 60 min (duże do 90 min). Gotowe, gdy nóż wchodzi bez oporu.",
+          "Lekko ostudź i obierz — skórka schodzi pod palcami. Zetrzyj na tarce o grubych oczkach.",
+          "Alternatywa: ugotuj w skórce w wodzie 40–60 min. Smak będzie łagodniejszy, a kolor nieco bledszy."
+        ]
+      },
+      {
+        "group": "Zasmażka",
+        "items": [
+          "W rondlu rozpuść masło i zeszklij cebulę na małym ogniu, 5 min, bez rumienienia.",
+          "Posyp mąką i smaż minutę, cały czas mieszając — mąka ma stracić surowy zapach, ale nie zbrązowieć."
+        ]
+      },
+      {
+        "group": "Duszenie",
+        "items": [
+          "Dodaj starte buraki i jabłko. Wymieszaj z zasmażką. Jeśli masa jest zbyt sucha, dolej 2–3 łyżki wody.",
+          "Duś pod przykryciem na małym ogniu ok. 10 min, mieszając co jakiś czas."
+        ]
+      },
+      {
+        "group": "Doprawienie",
+        "items": [
+          "Dodaj sok z cytryny, cukier, sól i pieprz. Spróbuj — buraczki mają być wyraźnie kwaśne z lekką słodyczą, nie mdłe.",
+          "Na koniec, poza ogniem, wmieszaj chrzan lub śmietanę, jeśli używasz. Podawaj na ciepło."
+        ]
+      }
+    ],
+    "serving": [
+      {
+        "name": "Roladki śląskie z kluskami",
+        "desc": "Trzeci element klasycznego śląskiego talerza."
+      },
+      {
+        "name": "Schab w sosie własnym",
+        "desc": "Kwas buraczków przecina gęsty, tłusty sos."
+      },
+      {
+        "name": "Gulasz z łopatki",
+        "desc": "Zamiast surówki."
+      },
+      {
+        "name": "Kotlet schabowy z ziemniakami",
+        "desc": "Najbardziej domowa wersja."
+      }
+    ],
+    "secrets": [
+      {
+        "title": "Pieczenie zamiast gotowania",
+        "text": "W wodzie burak oddaje barwnik i cukry do wywaru. W folii wszystko zostaje w środku — smak jest słodszy, bardziej ziemisty, a kolor głęboko bordowy."
+      },
+      {
+        "title": "Kwas na końcu, nie na początku",
+        "text": "Sok z cytryny czy ocet dodane wcześnie utrwalają kolor, ale ich aromat odparowuje przy duszeniu. Doprawiaj po zdjęciu z ognia i próbuj."
+      },
+      {
+        "title": "Jabłko zamiast części cukru",
+        "text": "Daje słodycz i kwas jednocześnie, a przy tym naturalną pektynę, która lekko zagęszcza. Kwaśne odmiany, nie deserowe."
+      },
+      {
+        "title": "Grube oczka tarki",
+        "text": "Drobno starte buraki zamieniają się w papkę. Grube wiórki zachowują strukturę i lepiej wyglądają na talerzu."
+      },
+      {
+        "title": "Chrzan albo śmietana, nie oba naraz",
+        "text": "Chrzan daje ostrość i wytrawność, śmietana łagodzi i rozjaśnia kolor na różowo. Każdy ciągnie w inną stronę."
+      }
+    ],
+    "notes": [
+      "Buraki można upiec dzień wcześniej i trzymać w lodówce — zasmażka zajmuje wtedy 15 min.",
+      "Gotowe buraczki trzymają się w lodówce 3–4 dni i dobrze się odgrzewają.",
+      "Rękawiczki przy obieraniu i tarciu oszczędzą bordowych dłoni.",
+      "Dodać zdjęcie gotowego dania."
+    ]
   }
 ]
